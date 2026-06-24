@@ -1,0 +1,5 @@
+# Local dev / tooling artifacts
+_mintdev.log
+.mintlify/
+.playwright-mcp/
+node_modules/

@@ -1,0 +1,15 @@
+/* RocX 문서 커스텀 스타일 */
+
+/* 본문 줄간격을 참고 사이트(Citrea, ~1.6) 수준으로 좁힘.
+   기존 Mintlify 기본(1.75)은 한글 백서의 짧은 문장이 많아 다소 휑하게 보임.
+   문단 간격(20px)은 참고 사이트와 동일하므로 유지. */
+.mdx-content,
+.prose {
+  line-height: 1.6;
+}
+
+/* 언어 스위처(한국어/English)를 로고의 시각 중심에 맞춰 미세 정렬.
+   한글 글자는 디센더가 없어 라인박스 위쪽에 앉아 로고보다 약 1.5px 높게 보임. */
+#localization-select-trigger {
+  transform: translateY(1.5px);
+}
