@@ -27,116 +27,206 @@
       {
         "language": "ko",
         "default": true,
-        "groups": [
+        "tabs": [
           {
-            "group": "시작하기",
-            "icon": "rocket",
-            "pages": [
-              "index",
-              "introduction"
+            "tab": "백서",
+            "groups": [
+              {
+                "group": "시작하기",
+                "icon": "rocket",
+                "pages": [
+                  "index",
+                  "introduction"
+                ]
+              },
+              {
+                "group": "왜 RocX인가",
+                "icon": "circle-question",
+                "pages": [
+                  "problem",
+                  "survival-finance",
+                  "why-rocx"
+                ]
+              },
+              {
+                "group": "핵심 개념",
+                "icon": "atom",
+                "pages": [
+                  "proof-of-activity",
+                  "active-energy",
+                  "reputation",
+                  "identity"
+                ]
+              },
+              {
+                "group": "작동 방식",
+                "icon": "gears",
+                "pages": [
+                  "ecosystem",
+                  "active-lending",
+                  "survival-mechanism"
+                ]
+              },
+              {
+                "group": "경제와 시장",
+                "icon": "chart-line",
+                "pages": [
+                  "business-model",
+                  "rocx-vs-defi",
+                  "market-opportunity"
+                ]
+              },
+              {
+                "group": "마무리",
+                "icon": "flag-checkered",
+                "pages": [
+                  "conclusion",
+                  "disclaimer"
+                ]
+              }
             ]
           },
           {
-            "group": "왜 RocX인가",
-            "icon": "circle-question",
-            "pages": [
-              "problem",
-              "survival-finance",
-              "why-rocx"
-            ]
-          },
-          {
-            "group": "핵심 개념",
-            "icon": "atom",
-            "pages": [
-              "proof-of-activity",
-              "active-energy",
-              "reputation",
-              "identity"
-            ]
-          },
-          {
-            "group": "작동 방식",
-            "icon": "gears",
-            "pages": [
-              "ecosystem",
-              "active-lending",
-              "survival-mechanism"
-            ]
-          },
-          {
-            "group": "경제와 시장",
-            "icon": "chart-line",
-            "pages": [
-              "business-model",
-              "rocx-vs-defi",
-              "market-opportunity"
-            ]
-          },
-          {
-            "group": "마무리",
-            "icon": "flag-checkered",
-            "pages": [
-              "conclusion",
-              "disclaimer"
+            "tab": "이용 가이드",
+            "groups": [
+              {
+                "group": "가이드 시작",
+                "icon": "rocket",
+                "pages": [
+                  "guide/index",
+                  "guide/getting-started"
+                ]
+              },
+              {
+                "group": "SurFi · DeFi",
+                "icon": "coins",
+                "pages": [
+                  "guide/defi/deposit",
+                  "guide/defi/lending",
+                  "guide/defi/staking",
+                  "guide/defi/swap",
+                  "guide/defi/bridge",
+                  "guide/defi/portfolio",
+                  "guide/defi/governance"
+                ]
+              },
+              {
+                "group": "탐험",
+                "icon": "compass",
+                "pages": [
+                  "guide/explore"
+                ]
+              },
+              {
+                "group": "마이페이지",
+                "icon": "user",
+                "pages": [
+                  "guide/my-page"
+                ]
+              }
             ]
           }
         ]
       },
       {
         "language": "en",
-        "groups": [
+        "tabs": [
           {
-            "group": "Getting Started",
-            "icon": "rocket",
-            "pages": [
-              "en/index",
-              "en/introduction"
+            "tab": "Whitepaper",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "icon": "rocket",
+                "pages": [
+                  "en/index",
+                  "en/introduction"
+                ]
+              },
+              {
+                "group": "Why RocX",
+                "icon": "circle-question",
+                "pages": [
+                  "en/problem",
+                  "en/survival-finance",
+                  "en/why-rocx"
+                ]
+              },
+              {
+                "group": "Core Concepts",
+                "icon": "atom",
+                "pages": [
+                  "en/proof-of-activity",
+                  "en/active-energy",
+                  "en/reputation",
+                  "en/identity"
+                ]
+              },
+              {
+                "group": "How It Works",
+                "icon": "gears",
+                "pages": [
+                  "en/ecosystem",
+                  "en/active-lending",
+                  "en/survival-mechanism"
+                ]
+              },
+              {
+                "group": "Economy & Market",
+                "icon": "chart-line",
+                "pages": [
+                  "en/business-model",
+                  "en/rocx-vs-defi",
+                  "en/market-opportunity"
+                ]
+              },
+              {
+                "group": "Closing",
+                "icon": "flag-checkered",
+                "pages": [
+                  "en/conclusion",
+                  "en/disclaimer"
+                ]
+              }
             ]
           },
           {
-            "group": "Why RocX",
-            "icon": "circle-question",
-            "pages": [
-              "en/problem",
-              "en/survival-finance",
-              "en/why-rocx"
-            ]
-          },
-          {
-            "group": "Core Concepts",
-            "icon": "atom",
-            "pages": [
-              "en/proof-of-activity",
-              "en/active-energy",
-              "en/reputation",
-              "en/identity"
-            ]
-          },
-          {
-            "group": "How It Works",
-            "icon": "gears",
-            "pages": [
-              "en/ecosystem",
-              "en/active-lending",
-              "en/survival-mechanism"
-            ]
-          },
-          {
-            "group": "Economy & Market",
-            "icon": "chart-line",
-            "pages": [
-              "en/business-model",
-              "en/rocx-vs-defi",
-              "en/market-opportunity"
-            ]
-          },
-          {
-            "group": "Closing",
-            "icon": "flag-checkered",
-            "pages": [
-              "en/conclusion",
-              "en/disclaimer"
+            "tab": "User Guide",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "icon": "rocket",
+                "pages": [
+                  "en/guide/index",
+                  "en/guide/getting-started"
+                ]
+              },
+              {
+                "group": "SurFi · DeFi",
+                "icon": "coins",
+                "pages": [
+                  "en/guide/defi/deposit",
+                  "en/guide/defi/lending",
+                  "en/guide/defi/staking",
+                  "en/guide/defi/swap",
+                  "en/guide/defi/bridge",
+                  "en/guide/defi/portfolio",
+                  "en/guide/defi/governance"
+                ]
+              },
+              {
+                "group": "Explore",
+                "icon": "compass",
+                "pages": [
+                  "en/guide/explore"
+                ]
+              },
+              {
+                "group": "My Page",
+                "icon": "user",
+                "pages": [
+                  "en/guide/my-page"
+                ]
+              }
             ]
           }
         ]
