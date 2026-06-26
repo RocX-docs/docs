@@ -1,5 +1,6 @@
 # Local dev / tooling artifacts
 _mintdev.log
+mintlify-preview*.log
 .mintlify/
 .playwright-mcp/
 node_modules/

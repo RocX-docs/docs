@@ -34,52 +34,52 @@
                 "group": "\uc2dc\uc791\ud558\uae30",
                 "icon": "rocket",
                 "pages": [
-                  "index",
-                  "introduction"
+                  "kr/index",
+                  "kr/introduction"
                 ]
               },
               {
                 "group": "\uc65c RocX\uc778\uac00",
                 "icon": "circle-question",
                 "pages": [
-                  "problem",
-                  "survival-finance"
+                  "kr/problem",
+                  "kr/survival-finance"
                 ]
               },
               {
                 "group": "\ud575\uc2ec \uac1c\ub150",
                 "icon": "atom",
                 "pages": [
-                  "proof-of-activity",
-                  "active-energy",
-                  "reputation",
-                  "identity"
+                  "kr/proof-of-activity",
+                  "kr/active-energy",
+                  "kr/reputation",
+                  "kr/identity"
                 ]
               },
               {
                 "group": "\uc791\ub3d9 \ubc29\uc2dd",
                 "icon": "gears",
                 "pages": [
-                  "ecosystem",
-                  "active-lending",
-                  "survival-mechanism"
+                  "kr/ecosystem",
+                  "kr/active-lending",
+                  "kr/survival-mechanism"
                 ]
               },
               {
                 "group": "\uacbd\uc81c\uc640 \uc2dc\uc7a5",
                 "icon": "chart-line",
                 "pages": [
-                  "business-model",
-                  "rocx-vs-defi",
-                  "market-opportunity"
+                  "kr/business-model",
+                  "kr/rocx-vs-defi",
+                  "kr/market-opportunity"
                 ]
               },
               {
                 "group": "\ub9c8\ubb34\ub9ac",
                 "icon": "flag-checkered",
                 "pages": [
-                  "conclusion",
-                  "disclaimer"
+                  "kr/conclusion",
+                  "kr/disclaimer"
                 ]
               }
             ]
@@ -89,6 +89,109 @@
             "groups": [
               {
                 "group": "\uac00\uc774\ub4dc \uc2dc\uc791",
+                "icon": "rocket",
+                "pages": [
+                  "kr/guide/index",
+                  "kr/guide/getting-started"
+                ]
+              },
+              {
+                "group": "SurFi · DeFi",
+                "icon": "coins",
+                "pages": [
+                  "kr/guide/defi/deposit",
+                  "kr/guide/defi/lending",
+                  "kr/guide/defi/staking",
+                  "kr/guide/defi/swap",
+                  "kr/guide/defi/bridge",
+                  "kr/guide/defi/portfolio",
+                  "kr/guide/defi/governance"
+                ]
+              },
+              {
+                "group": "\ud0d0\ud5d8",
+                "icon": "compass",
+                "pages": [
+                  "kr/guide/explore"
+                ]
+              },
+              {
+                "group": "\ub9c8\uc774\ud398\uc774\uc9c0",
+                "icon": "user",
+                "pages": [
+                  "kr/guide/my-page"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "default": true,
+        "tabs": [
+          {
+            "tab": "Whitepaper",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "icon": "rocket",
+                "pages": [
+                  "index",
+                  "introduction"
+                ]
+              },
+              {
+                "group": "Why RocX",
+                "icon": "circle-question",
+                "pages": [
+                  "problem",
+                  "survival-finance"
+                ]
+              },
+              {
+                "group": "Core Concepts",
+                "icon": "atom",
+                "pages": [
+                  "proof-of-activity",
+                  "active-energy",
+                  "reputation",
+                  "identity"
+                ]
+              },
+              {
+                "group": "How It Works",
+                "icon": "gears",
+                "pages": [
+                  "ecosystem",
+                  "active-lending",
+                  "survival-mechanism"
+                ]
+              },
+              {
+                "group": "Economy & Market",
+                "icon": "chart-line",
+                "pages": [
+                  "business-model",
+                  "rocx-vs-defi",
+                  "market-opportunity"
+                ]
+              },
+              {
+                "group": "Closing",
+                "icon": "flag-checkered",
+                "pages": [
+                  "conclusion",
+                  "disclaimer"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "User Guide",
+            "groups": [
+              {
+                "group": "Getting Started",
                 "icon": "rocket",
                 "pages": [
                   "guide/index",
@@ -109,120 +212,17 @@
                 ]
               },
               {
-                "group": "\ud0d0\ud5d8",
+                "group": "Explore",
                 "icon": "compass",
                 "pages": [
                   "guide/explore"
                 ]
               },
               {
-                "group": "\ub9c8\uc774\ud398\uc774\uc9c0",
-                "icon": "user",
-                "pages": [
-                  "guide/my-page"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "language": "en",
-        "default": true,
-        "tabs": [
-          {
-            "tab": "Whitepaper",
-            "groups": [
-              {
-                "group": "Getting Started",
-                "icon": "rocket",
-                "pages": [
-                  "en/index",
-                  "en/introduction"
-                ]
-              },
-              {
-                "group": "Why RocX",
-                "icon": "circle-question",
-                "pages": [
-                  "en/problem",
-                  "en/survival-finance"
-                ]
-              },
-              {
-                "group": "Core Concepts",
-                "icon": "atom",
-                "pages": [
-                  "en/proof-of-activity",
-                  "en/active-energy",
-                  "en/reputation",
-                  "en/identity"
-                ]
-              },
-              {
-                "group": "How It Works",
-                "icon": "gears",
-                "pages": [
-                  "en/ecosystem",
-                  "en/active-lending",
-                  "en/survival-mechanism"
-                ]
-              },
-              {
-                "group": "Economy & Market",
-                "icon": "chart-line",
-                "pages": [
-                  "en/business-model",
-                  "en/rocx-vs-defi",
-                  "en/market-opportunity"
-                ]
-              },
-              {
-                "group": "Closing",
-                "icon": "flag-checkered",
-                "pages": [
-                  "en/conclusion",
-                  "en/disclaimer"
-                ]
-              }
-            ]
-          },
-          {
-            "tab": "User Guide",
-            "groups": [
-              {
-                "group": "Getting Started",
-                "icon": "rocket",
-                "pages": [
-                  "en/guide/index",
-                  "en/guide/getting-started"
-                ]
-              },
-              {
-                "group": "SurFi · DeFi",
-                "icon": "coins",
-                "pages": [
-                  "en/guide/defi/deposit",
-                  "en/guide/defi/lending",
-                  "en/guide/defi/staking",
-                  "en/guide/defi/swap",
-                  "en/guide/defi/bridge",
-                  "en/guide/defi/portfolio",
-                  "en/guide/defi/governance"
-                ]
-              },
-              {
-                "group": "Explore",
-                "icon": "compass",
-                "pages": [
-                  "en/guide/explore"
-                ]
-              },
-              {
                 "group": "My Page",
                 "icon": "user",
                 "pages": [
-                  "en/guide/my-page"
+                  "guide/my-page"
                 ]
               }
             ]
