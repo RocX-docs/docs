@@ -78,7 +78,13 @@
                 "group": "\ub9c8\ubb34\ub9ac",
                 "icon": "flag-checkered",
                 "pages": [
-                  "kr/conclusion",
+                  "kr/conclusion"
+                ]
+              },
+              {
+                "group": "\ubc95\uc801 \uace0\uc9c0",
+                "icon": "file-text",
+                "pages": [
                   "kr/disclaimer"
                 ]
               }
@@ -181,7 +187,13 @@
                 "group": "Closing",
                 "icon": "flag-checkered",
                 "pages": [
-                  "conclusion",
+                  "conclusion"
+                ]
+              },
+              {
+                "group": "Legal",
+                "icon": "file-text",
+                "pages": [
                   "disclaimer"
                 ]
               }
