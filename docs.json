@@ -102,30 +102,24 @@
                 ]
               },
               {
-                "group": "SurFi · DeFi",
+                "group": "DeFi 행성",
                 "icon": "coins",
                 "pages": [
                   "kr/guide/defi/deposit",
                   "kr/guide/defi/lending",
-                  "kr/guide/defi/staking",
                   "kr/guide/defi/swap",
                   "kr/guide/defi/bridge",
-                  "kr/guide/defi/portfolio",
-                  "kr/guide/defi/governance"
+                  "kr/guide/defi/portfolio"
                 ]
               },
               {
-                "group": "\ud0d0\ud5d8",
+                "group": "탐험 행성",
                 "icon": "compass",
                 "pages": [
-                  "kr/guide/explore"
-                ]
-              },
-              {
-                "group": "\ub9c8\uc774\ud398\uc774\uc9c0",
-                "icon": "user",
-                "pages": [
-                  "kr/guide/my-page"
+                  "kr/guide/explore/activity-proof",
+                  "kr/guide/explore/card-flip",
+                  "kr/guide/explore/roulette-mission",
+                  "kr/guide/explore/prediction-mission"
                 ]
               }
             ]
@@ -211,30 +205,24 @@
                 ]
               },
               {
-                "group": "SurFi · DeFi",
+                "group": "DeFi Planet",
                 "icon": "coins",
                 "pages": [
                   "guide/defi/deposit",
                   "guide/defi/lending",
-                  "guide/defi/staking",
                   "guide/defi/swap",
                   "guide/defi/bridge",
-                  "guide/defi/portfolio",
-                  "guide/defi/governance"
+                  "guide/defi/portfolio"
                 ]
               },
               {
-                "group": "Explore",
+                "group": "Explore Planet",
                 "icon": "compass",
                 "pages": [
-                  "guide/explore"
-                ]
-              },
-              {
-                "group": "My Page",
-                "icon": "user",
-                "pages": [
-                  "guide/my-page"
+                  "guide/explore/activity-proof",
+                  "guide/explore/card-flip",
+                  "guide/explore/roulette-mission",
+                  "guide/explore/prediction-mission"
                 ]
               }
             ]
@@ -247,13 +235,6 @@
     "light": "/logo/rocx-light.png",
     "dark": "/logo/rocx-dark.png"
   },
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "RocX App",
-      "href": "https://dev.rocx.colligence.kr"
-    }
-  },
   "contextual": {
     "options": [
       "copy",
@@ -262,10 +243,5 @@
       "claude",
       "perplexity"
     ]
-  },
-  "footer": {
-    "socials": {
-      "website": "https://dev.rocx.colligence.kr"
-    }
   }
 }
