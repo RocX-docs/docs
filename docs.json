@@ -121,6 +121,13 @@
                   "kr/guide/explore/roulette-mission",
                   "kr/guide/explore/prediction-mission"
                 ]
+              },
+              {
+                "group": "무한 행성",
+                "icon": "infinity",
+                "pages": [
+                  "kr/guide/infinity/arc-chain-connection"
+                ]
               }
             ]
           }
@@ -223,6 +230,13 @@
                   "guide/explore/card-flip",
                   "guide/explore/roulette-mission",
                   "guide/explore/prediction-mission"
+                ]
+              },
+              {
+                "group": "Infinity Planet",
+                "icon": "infinity",
+                "pages": [
+                  "guide/infinity/arc-chain-connection"
                 ]
               }
             ]
