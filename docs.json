@@ -126,7 +126,8 @@
                 "group": "무한 행성",
                 "icon": "infinity",
                 "pages": [
-                  "kr/guide/infinity/arc-chain-connection"
+                  "kr/guide/infinity/arc-chain-connection",
+                  "kr/guide/infinity/nft-ecosystem-connection"
                 ]
               }
             ]
@@ -236,7 +237,8 @@
                 "group": "Infinity Planet",
                 "icon": "infinity",
                 "pages": [
-                  "guide/infinity/arc-chain-connection"
+                  "guide/infinity/arc-chain-connection",
+                  "guide/infinity/nft-ecosystem-connection"
                 ]
               }
             ]
