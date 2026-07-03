@@ -28,10 +28,10 @@
         "language": "ko",
         "tabs": [
           {
-            "tab": "\ubc31\uc11c",
+            "tab": "백서",
             "groups": [
               {
-                "group": "\uc2dc\uc791\ud558\uae30",
+                "group": "시작하기",
                 "icon": "rocket",
                 "pages": [
                   "kr/index",
@@ -39,62 +39,70 @@
                 ]
               },
               {
-                "group": "\uc65c RocX\uc778\uac00",
+                "group": "왜 RocX인가",
                 "icon": "circle-question",
                 "pages": [
-                  "kr/problem",
-                  "kr/survival-finance"
+                  "kr/whitepaper/what-defi-missed",
+                  "kr/whitepaper/why-proof-of-activity"
                 ]
               },
               {
-                "group": "\ud575\uc2ec \uac1c\ub150",
+                "group": "핵심 개념",
                 "icon": "atom",
                 "pages": [
-                  "kr/proof-of-activity",
-                  "kr/active-energy",
-                  "kr/reputation",
-                  "kr/identity"
+                  "kr/whitepaper/proof-of-activity",
+                  "kr/whitepaper/active-energy",
+                  "kr/whitepaper/reputation-layer",
+                  "kr/whitepaper/activity-identity"
                 ]
               },
               {
-                "group": "\uc791\ub3d9 \ubc29\uc2dd",
+                "group": "RocX 행성 구조",
+                "icon": "globe",
+                "pages": [
+                  "kr/whitepaper/defi-planet-overview",
+                  "kr/whitepaper/poa-planet-overview",
+                  "kr/whitepaper/explore-planet-overview"
+                ]
+              },
+              {
+                "group": "작동 방식",
                 "icon": "gears",
                 "pages": [
-                  "kr/ecosystem",
-                  "kr/active-lending",
-                  "kr/survival-mechanism"
+                  "kr/whitepaper/activity-flow",
+                  "kr/whitepaper/ae-boosting-system"
                 ]
               },
               {
-                "group": "\uacbd\uc81c\uc640 \uc2dc\uc7a5",
+                "group": "경제와 시장",
                 "icon": "chart-line",
                 "pages": [
-                  "kr/business-model",
-                  "kr/rocx-vs-defi",
-                  "kr/market-opportunity"
+                  "kr/whitepaper/active-energy-economy",
+                  "kr/whitepaper/new-value-flywheel",
+                  "kr/whitepaper/proof-of-activity-market"
                 ]
               },
               {
-                "group": "\ub9c8\ubb34\ub9ac",
+                "group": "마무리",
                 "icon": "flag-checkered",
                 "pages": [
-                  "kr/conclusion"
+                  "kr/whitepaper/future-of-web3-finance"
                 ]
               },
               {
-                "group": "\ubc95\uc801 \uace0\uc9c0",
+                "group": "법적 고지",
                 "icon": "file-text",
                 "pages": [
-                  "kr/disclaimer"
+                  "kr/whitepaper/disclaimer"
                 ]
               }
             ]
           },
           {
-            "tab": "\uc774\uc6a9 \uac00\uc774\ub4dc",
+            "tab": "이용 가이드",
             "groups": [
               {
-                "group": "\uac00\uc774\ub4dc \uc2dc\uc791",
+                "group": "가이드 시작",
                 "icon": "rocket",
                 "pages": [
                   "kr/guide/index",
@@ -102,7 +110,7 @@
                 ]
               },
               {
-                "group": "DeFi 행성",
+                "group": "DeFi Planet",
                 "icon": "coins",
                 "pages": [
                   "kr/guide/defi/deposit",
@@ -113,7 +121,7 @@
                 ]
               },
               {
-                "group": "탐험 행성",
+                "group": "Explore Planet",
                 "icon": "compass",
                 "pages": [
                   "kr/guide/explore/activity-proof",
@@ -123,7 +131,7 @@
                 ]
               },
               {
-                "group": "무한 행성",
+                "group": "Infinity Planet",
                 "icon": "infinity",
                 "pages": [
                   "kr/guide/infinity/arc-chain-connection",
@@ -145,58 +153,66 @@
                 "group": "Getting Started",
                 "icon": "rocket",
                 "pages": [
-                  "index",
-                  "introduction"
+                  "whitepaper/start",
+                  "whitepaper/every-web3-activity-creates-value"
                 ]
               },
               {
                 "group": "Why RocX",
                 "icon": "circle-question",
                 "pages": [
-                  "problem",
-                  "survival-finance"
+                  "whitepaper/what-defi-missed",
+                  "whitepaper/why-proof-of-activity"
                 ]
               },
               {
                 "group": "Core Concepts",
                 "icon": "atom",
                 "pages": [
-                  "proof-of-activity",
-                  "active-energy",
-                  "reputation",
-                  "identity"
+                  "whitepaper/proof-of-activity",
+                  "whitepaper/active-energy",
+                  "whitepaper/reputation-layer",
+                  "whitepaper/activity-identity"
+                ]
+              },
+              {
+                "group": "RocX Planets",
+                "icon": "globe",
+                "pages": [
+                  "whitepaper/defi-planet-overview",
+                  "whitepaper/poa-planet-overview",
+                  "whitepaper/explore-planet-overview"
                 ]
               },
               {
                 "group": "How It Works",
                 "icon": "gears",
                 "pages": [
-                  "ecosystem",
-                  "active-lending",
-                  "survival-mechanism"
+                  "whitepaper/activity-flow",
+                  "whitepaper/ae-boosting-system"
                 ]
               },
               {
                 "group": "Economy & Market",
                 "icon": "chart-line",
                 "pages": [
-                  "business-model",
-                  "rocx-vs-defi",
-                  "market-opportunity"
+                  "whitepaper/active-energy-economy",
+                  "whitepaper/new-value-flywheel",
+                  "whitepaper/proof-of-activity-market"
                 ]
               },
               {
                 "group": "Closing",
                 "icon": "flag-checkered",
                 "pages": [
-                  "conclusion"
+                  "whitepaper/future-of-web3-finance"
                 ]
               },
               {
                 "group": "Legal",
                 "icon": "file-text",
                 "pages": [
-                  "disclaimer"
+                  "whitepaper/disclaimer"
                 ]
               }
             ]
