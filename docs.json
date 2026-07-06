@@ -110,7 +110,7 @@
                 ]
               },
               {
-                "group": "DeFi Planet",
+                "group": "DeFi \ud589\uc131",
                 "icon": "coins",
                 "pages": [
                   "kr/guide/defi/deposit",
@@ -120,21 +120,25 @@
                 ]
               },
               {
-                "group": "Explore Planet",
+                "group": "PoA \ud589\uc131",
+                "icon": "fingerprint",
+                "pages": [
+                  "kr/guide/infinity/l1-l2-ecosystem-connection",
+                  "kr/guide/infinity/ai-ecosystem-connection",
+                  "kr/guide/infinity/rwa-ecosystem-connection",
+                  "kr/guide/infinity/defi-ecosystem-connection",
+                  "kr/guide/infinity/zk-ecosystem-connection",
+                  "kr/guide/infinity/nft-ecosystem-connection"
+                ]
+              },
+              {
+                "group": "Explore \ud589\uc131",
                 "icon": "compass",
                 "pages": [
                   "kr/guide/explore/activity-proof",
                   "kr/guide/explore/card-flip",
                   "kr/guide/explore/roulette-mission",
                   "kr/guide/explore/prediction-mission"
-                ]
-              },
-              {
-                "group": "Infinity Planet",
-                "icon": "infinity",
-                "pages": [
-                  "kr/guide/infinity/arc-chain-connection",
-                  "kr/guide/infinity/nft-ecosystem-connection"
                 ]
               }
             ]
@@ -238,6 +242,18 @@
                 ]
               },
               {
+                "group": "PoA Planet",
+                "icon": "fingerprint",
+                "pages": [
+                  "guide/infinity/l1-l2-ecosystem-connection",
+                  "guide/infinity/ai-ecosystem-connection",
+                  "guide/infinity/rwa-ecosystem-connection",
+                  "guide/infinity/defi-ecosystem-connection",
+                  "guide/infinity/zk-ecosystem-connection",
+                  "guide/infinity/nft-ecosystem-connection"
+                ]
+              },
+              {
                 "group": "Explore Planet",
                 "icon": "compass",
                 "pages": [
@@ -245,14 +261,6 @@
                   "guide/explore/card-flip",
                   "guide/explore/roulette-mission",
                   "guide/explore/prediction-mission"
-                ]
-              },
-              {
-                "group": "Infinity Planet",
-                "icon": "infinity",
-                "pages": [
-                  "guide/infinity/arc-chain-connection",
-                  "guide/infinity/nft-ecosystem-connection"
                 ]
               }
             ]
