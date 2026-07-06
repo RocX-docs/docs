@@ -28,10 +28,10 @@
         "language": "ko",
         "tabs": [
           {
-            "tab": "백서",
+            "tab": "\ubc31\uc11c",
             "groups": [
               {
-                "group": "시작하기",
+                "group": "\uc2dc\uc791\ud558\uae30",
                 "icon": "rocket",
                 "pages": [
                   "kr/index",
@@ -39,7 +39,7 @@
                 ]
               },
               {
-                "group": "왜 RocX인가",
+                "group": "\uc65c RocX\uc778\uac00",
                 "icon": "circle-question",
                 "pages": [
                   "kr/whitepaper/what-defi-missed",
@@ -47,7 +47,7 @@
                 ]
               },
               {
-                "group": "핵심 개념",
+                "group": "\ud575\uc2ec \uac1c\ub150",
                 "icon": "atom",
                 "pages": [
                   "kr/whitepaper/proof-of-activity",
@@ -57,7 +57,7 @@
                 ]
               },
               {
-                "group": "RocX 행성 구조",
+                "group": "RocX \ud589\uc131 \uad6c\uc870",
                 "icon": "globe",
                 "pages": [
                   "kr/whitepaper/defi-planet-overview",
@@ -66,7 +66,7 @@
                 ]
               },
               {
-                "group": "작동 방식",
+                "group": "\uc791\ub3d9 \ubc29\uc2dd",
                 "icon": "gears",
                 "pages": [
                   "kr/whitepaper/activity-flow",
@@ -74,7 +74,7 @@
                 ]
               },
               {
-                "group": "경제와 시장",
+                "group": "\uacbd\uc81c\uc640 \uc2dc\uc7a5",
                 "icon": "chart-line",
                 "pages": [
                   "kr/whitepaper/active-energy-economy",
@@ -83,14 +83,14 @@
                 ]
               },
               {
-                "group": "마무리",
+                "group": "\ub9c8\ubb34\ub9ac",
                 "icon": "flag-checkered",
                 "pages": [
                   "kr/whitepaper/future-of-web3-finance"
                 ]
               },
               {
-                "group": "법적 고지",
+                "group": "\ubc95\uc801 \uace0\uc9c0",
                 "icon": "file-text",
                 "pages": [
                   "kr/whitepaper/disclaimer"
@@ -99,10 +99,10 @@
             ]
           },
           {
-            "tab": "이용 가이드",
+            "tab": "\uc774\uc6a9 \uac00\uc774\ub4dc",
             "groups": [
               {
-                "group": "가이드 시작",
+                "group": "\uac00\uc774\ub4dc \uc2dc\uc791",
                 "icon": "rocket",
                 "pages": [
                   "kr/guide/index",
