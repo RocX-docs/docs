@@ -116,8 +116,7 @@
                   "kr/guide/defi/deposit",
                   "kr/guide/defi/lending",
                   "kr/guide/defi/swap",
-                  "kr/guide/defi/bridge",
-                  "kr/guide/defi/portfolio"
+                  "kr/guide/defi/bridge"
                 ]
               },
               {
@@ -235,8 +234,7 @@
                   "guide/defi/deposit",
                   "guide/defi/lending",
                   "guide/defi/swap",
-                  "guide/defi/bridge",
-                  "guide/defi/portfolio"
+                  "guide/defi/bridge"
                 ]
               },
               {
