@@ -66,6 +66,17 @@
                 ]
               },
               {
+                "group": "PoA \uae30\uc5ec \uc2dc\uc2a4\ud15c",
+                "icon": "fingerprint",
+                "pages": [
+                  "kr/whitepaper/cross-platform-proof-of-activity",
+                  "kr/whitepaper/activity-registration-and-verification",
+                  "kr/whitepaper/community-evaluation-and-contribution-score",
+                  "kr/whitepaper/poa-activity-board",
+                  "kr/whitepaper/missions-and-campaigns"
+                ]
+              },
+              {
                 "group": "\uc791\ub3d9 \ubc29\uc2dd",
                 "icon": "gears",
                 "pages": [
@@ -123,12 +134,9 @@
                 "group": "PoA \ud589\uc131",
                 "icon": "fingerprint",
                 "pages": [
-                  "kr/guide/infinity/l1-l2-ecosystem-connection",
-                  "kr/guide/infinity/ai-ecosystem-connection",
-                  "kr/guide/infinity/rwa-ecosystem-connection",
-                  "kr/guide/infinity/defi-ecosystem-connection",
-                  "kr/guide/infinity/zk-ecosystem-connection",
-                  "kr/guide/infinity/nft-ecosystem-connection"
+                  "kr/guide/poa/activity-board",
+                  "kr/guide/poa/register-activity",
+                  "kr/guide/poa/evaluate-activity"
                 ]
               },
               {
@@ -185,6 +193,17 @@
                   "whitepaper/defi-planet-overview",
                   "whitepaper/poa-planet-overview",
                   "whitepaper/explore-planet-overview"
+                ]
+              },
+              {
+                "group": "PoA Contribution System",
+                "icon": "fingerprint",
+                "pages": [
+                  "whitepaper/cross-platform-proof-of-activity",
+                  "whitepaper/activity-registration-and-verification",
+                  "whitepaper/community-evaluation-and-contribution-score",
+                  "whitepaper/poa-activity-board",
+                  "whitepaper/missions-and-campaigns"
                 ]
               },
               {
@@ -245,12 +264,9 @@
                 "group": "PoA Planet",
                 "icon": "fingerprint",
                 "pages": [
-                  "guide/infinity/l1-l2-ecosystem-connection",
-                  "guide/infinity/ai-ecosystem-connection",
-                  "guide/infinity/rwa-ecosystem-connection",
-                  "guide/infinity/defi-ecosystem-connection",
-                  "guide/infinity/zk-ecosystem-connection",
-                  "guide/infinity/nft-ecosystem-connection"
+                  "guide/poa/activity-board",
+                  "guide/poa/register-activity",
+                  "guide/poa/evaluate-activity"
                 ]
               },
               {
