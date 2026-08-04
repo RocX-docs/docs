@@ -1,69 +1,50 @@
 ---
 title: "PoA Activity Board"
+description: "The RocX surface for verified activity, contributor rankings, personal activity, and AE history."
 icon: "table-list"
 ---
 
-The PoA Activity Board is the product surface where cross-platform Web3 contribution becomes visible and usable inside RocX.
+The PoA Activity Board makes verified cross-platform Web3 contribution visible inside RocX without hosting the original content.
 
-It helps users register original links, discover verified activity, review their own contribution history, and understand how activity connects to Active Energy and Reputation.
+## Activity Feed
 
-<Info>
-The Activity Board organizes contribution.
+The feed can show verified activity cards with platform filters, recent ordering, contribution-based popularity, **Helpful**, **Not Helpful**, **Bookmark**, and **View Original Activity**.
 
-It does not host the original content.
-</Info>
+When source metadata is available, a card may show the platform, author or channel, external title or excerpt, publication time, thumbnail, video duration, content type, and original URL. If safe metadata is unavailable, the card may use the platform, author, registration time, original URL, and View Original Activity action.
 
----
+## Popular Activity
 
-## Discover verified activity.
+Popular Activity highlights content that receives strong eligible evaluation over an applicable period. It is not based only on views, raw likes, or total reactions. Verification, net eligible evaluation, validity, and abuse review can affect visibility.
 
-The Activity Board can provide an activity feed with platform filters and recent or contribution-based sorting.
+## Contributor Ranking
 
-Popular Activity can highlight contributions that perform strongly during a period, but it is not determined by raw likes alone. Verification, Contribution Score, Reputation, quality, and abuse signals can all affect visibility.
+Contributor Ranking shows the current user ranking, percentile, current-round score, and reward eligibility. It aggregates the user's eligible verified activities rather than ranking only one post.
 
----
+## My Activity
 
-## Register and manage activity.
+My Activity may show:
 
-My Activity can show registered links, source platforms, retrieved source metadata, registration history, verification or visibility status, Helpful and Not Helpful signals, eligible Active Energy, and Reputation impact.
+- registered original links and platforms;
+- external title or other retrieved metadata;
+- registration time;
+- conceptual verification and visibility status;
+- Helpful, Not Helpful, and net score;
+- current-round inclusion;
+- AE distribution history; and
+- Reputation impact information.
 
-Exact status names and management actions follow the implemented product specification. This whitepaper does not fix edit, hide, delete, or invalidation behavior.
+Pending, Verified, Rejected, Hidden, and Invalidated describe the conceptual lifecycle. Implemented labels and management actions must follow the product specification. Link editing, deletion, rejected-limit treatment, and original-content modification behavior are not fixed here.
 
----
+## Bookmark and My AE Balance
 
-## Use contribution signals responsibly.
+Bookmark lets users save useful external activities. Bookmark count is not part of the AE reward formula by itself.
 
-<CardGroup cols={2}>
-  <Card title="Activity Feed" icon="list">
-    Discover verified contribution across supported platforms.
-  </Card>
-  <Card title="Popular Activity" icon="fire">
-    Explore activity recognized through multiple contribution signals.
-  </Card>
-  <Card title="My Activity" icon="user">
-    Review registered links, verification history, evaluation, Active Energy, and Reputation impact.
-  </Card>
-  <Card title="Bookmark" icon="bookmark">
-    Save useful external links without treating the bookmark itself as an Active Energy event.
-  </Card>
-  <Card title="Contributor Recognition" icon="ranking-star">
-    Recognize contributors through Contribution Score or Reputation rather than raw reactions alone.
-  </Card>
-  <Card title="My AE Balance" icon="bolt">
-    Review Active Energy connected to eligible PoA activity.
-  </Card>
-</CardGroup>
+My AE Balance may show current AE, PoA ranking reward history, and other AE ledger changes. PoA AE is distributed through finalized Contributor Ranking, not immediately when a link is registered or verified.
 
----
+## Not a social graph
 
-## The Activity Board is not a social graph.
-
-The Activity Board does not define internal comments, replies, direct messages, or follower relationships.
-
-Its purpose is to connect external contribution to verification, evaluation, Active Energy, Reputation, Activity Identity, partner opportunities, Explore participation, ecosystem access, and better DeFi experiences.
+The Activity Board does not add internal comments, replies, direct messages, content uploads, or follower relationships. RocX links external contribution to verification, eligible evaluation, Contributor Ranking, Active Energy, Reputation, and Activity Identity.
 
 <Info>
-Web3 activity happens everywhere.
-
-RocX turns it into measurable value.
+Web3 activity happens everywhere. RocX turns verified contribution into measurable value.
 </Info>

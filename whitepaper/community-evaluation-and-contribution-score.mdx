@@ -1,65 +1,88 @@
 ---
 title: "Community Evaluation & Contribution Score"
+description: "Helpful, Not Helpful, reporting, evaluation eligibility, and PoA scoring principles."
 icon: "scale-balanced"
 ---
 
-Meaningful contribution cannot be measured by raw likes alone.
-
-RocX combines eligible community evaluation with verification, quality, relevance, consistency, Reputation, and abuse review.
+RocX evaluates usefulness, not emotional popularity. Eligible community signals are interpreted with contributor verification, content validity, duplication checks, and abuse review.
 
 <Info>
-Evaluation is a signal.
-
-Contribution Score is an interpretation of multiple signals.
+Helpful adds a positive signal. Not Helpful adds a negative signal. Report is a separate safety and policy action.
 </Info>
 
----
+## Helpful, Not Helpful, and Report
 
-## Helpful is not a popularity vote.
-
-Eligible users can evaluate whether registered activity provides informational, educational, or practical value to the Web3 ecosystem.
-
-The available signals are **Helpful** and **Not Helpful**. They evaluate the usefulness of an activity, not personal sentiment toward its contributor.
-
-One eligible wallet can provide one evaluation per activity. The same wallet cannot provide Helpful and Not Helpful at the same time, and a larger deposit does not create more votes or greater voting power.
-
-Whether an evaluation can be changed and how self-evaluation is restricted remain operating-policy decisions.
-
----
-
-## Not Helpful is different from Report.
-
-<CardGroup cols={2}>
+<CardGroup cols={3}>
+  <Card title="Helpful" icon="thumbs-up">
+    The activity provides useful Web3 information, education, analysis, insight, or practical value.
+  </Card>
   <Card title="Not Helpful" icon="thumbs-down">
-    A quality signal about the informational, educational, or practical value of the activity.
+    The activity lacks sufficient informational, educational, analytical, or practical value.
   </Card>
   <Card title="Report" icon="flag">
-    A separate path for phishing, impersonation, illegal or harmful content, and policy violations.
+    The content may involve phishing, impersonation, illegal or harmful material, spam, malicious links, or another policy violation.
   </Card>
 </CardGroup>
 
-Not Helpful does not automatically remove an activity. Visibility and enforcement require separate review and policy logic.
+Not Helpful is not a Report and does not automatically remove an activity. Helpful or Not Helpful does not guarantee factual accuracy, legality, safety, or investment suitability.
 
----
+## Evaluation eligibility
 
-## Evaluation requires economic responsibility.
+Users must maintain at least **USD 50 in eligible RocX DeFi deposits** to evaluate activities. The initial threshold may be adjusted through operating policy.
 
-Evaluators must meet a minimum eligible deposit requirement. An initial USD 50 threshold is under consideration and can be adjusted through operating policy.
+- One eligible wallet can evaluate each activity once.
+- Helpful and Not Helpful cannot be selected at the same time for one activity.
+- Deposit size does not increase evaluation count or weight.
+- **1 eligible wallet = 1 evaluation per activity.**
+- Evaluations linked to abuse may be excluded.
 
-The requirement is intended to increase the cost of abuse, reduce automated or careless reactions, and connect RocX's Capital Layer with its Participation Layer.
+Self-evaluation, changing or canceling an evaluation, post-evaluation withdrawal, multiple wallets connected to one social account, evaluator Reputation weighting, new-wallet weighting, and evaluator AE rewards remain unconfirmed policy items.
 
-This whitepaper does not decide whether registration requires a deposit, how long a deposit must remain, whether net or gross deposits apply, when eligibility is measured, or what happens after withdrawal.
+## Daily evaluation limits
 
----
+| Evaluation | Daily maximum |
+|---|---:|
+| Helpful | 10 |
+| Not Helpful | 10 |
+| Combined possible actions | 20 |
 
-## Contribution Score combines multiple signals.
+The Helpful and Not Helpful limits are counted separately. The daily reset follows RocX's service operating timezone as defined in operating policy; this whitepaper does not set a specific timezone.
 
-Contribution Score may consider verified Helpful and Not Helpful evaluations, unique evaluators, originality, Web3 relevance, content validity, consistency, contributor Reputation, repeated contribution, reports, policy violations, related accounts, reciprocal evaluation, and other manipulation signals.
+## Raw Activity Score
 
-The exact formula and weights are not fixed.
+```text
+Raw Activity Score = Eligible Helpful - Eligible Not Helpful
+```
 
-High raw engagement does not guarantee a higher score. Manipulated signals can be excluded or reduce the contribution assessment.
+The score does not add all reactions together. Only eligible evaluations count, and Not Helpful contributes a negative signal.
+
+## Contribution review
+
+Contribution Review can consider:
+
+- original source and contributor ownership;
+- supported platform and Web3 relevance;
+- uniqueness, accessibility, and continuing validity;
+- eligible Helpful and Not Helpful results;
+- policy compliance, reports, and invalidation; and
+- automation, related accounts, reciprocal behavior, or other abuse signals.
+
+```text
+Final Eligible Score = Raw Activity Score adjusted by verification and abuse review
+```
+
+The exact abuse coefficients, ranking weights, and penalties are not published or fixed here.
+
+## Contributor Season Score
+
+The Contributor Ranking aggregates eligible scores from each contributor's verified activities.
+
+```text
+Contributor Season Score = Sum of eligible activity scores from the contributor's verified activities during the current ranking round
+```
+
+The ranking is contributor-based rather than a single-post ranking. Verified links and eligible evaluations count; hidden, invalidated, duplicate, policy-violating, or abuse-linked activity may be excluded.
 
 <Warning>
-Contribution Score does not guarantee Active Energy, ranking, payment, token distribution, or financial return.
+Community evaluation and Contribution Score do not guarantee AE, factual accuracy, investment suitability, payment, token distribution, or financial return.
 </Warning>

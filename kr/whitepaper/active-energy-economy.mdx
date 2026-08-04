@@ -1,84 +1,69 @@
 ---
 title: "액티브 에너지 경제"
+description: "AE의 획득, 사용, 리저브 계정, Explore 정산 및 PoA 기여자 배분 구조입니다."
 icon: "chart-line"
 ---
 
-## 활동 위에 세워지는 지속 가능한 경제
+액티브 에너지(AE)는 RocX 원장에 기록되는 양도 불가능한 오프체인 포인트입니다. 고정 현금 가치가 없고 즉시 토큰으로 전환할 수 없으며 ROCX와 고정 환산율이 없습니다.
 
-Active Energy는 양도 불가능한 오프체인 참여 포인트이며 토큰이나 보장된 일회성 보상이 아닙니다.
+## AE 획득 경로
 
-적격 활동을 통해 생성되고, 축적되거나 사용되며, 제품 정책에 따라 다시 생태계로 연결될 수 있습니다.
+AE는 승인된 규칙에 따라 다음 경로에서 발생할 수 있습니다.
 
-RocX는 활동이 지속 가능한 경제를 만들 수 있도록 Active Energy를 설계했습니다.
+- Daily Check-in
+- Deposit AE
+- Deposit Boost
+- PoA Ranking Rewards
+- Explore Results
+- 기타 승인된 활동
 
-<Info>
-활동은 에너지를 만들고,  
-에너지는 생태계를 계속 움직입니다.
-</Info>
+PoA 링크를 등록하거나 검증했다고 AE가 즉시 생기지 않습니다. PoA AE는 기여자 랭킹, 어뷰징 검토 및 최종 순위 확정 후 배분됩니다.
 
----
+## AE 사용처
 
-## Active Energy는 순환합니다.
+AE는 Explore 미션 참여 및 기타 승인된 생태계 사용처에 사용할 수 있습니다. 각 사용처는 적용되는 자격, 정산, 만료 및 어뷰징 규칙을 따릅니다.
 
-Active Energy는 모든 활동에 자동으로 지급되는 보상이 아닙니다.
+## 두 리저브 계정
 
-사용자의 활동을 통해 계속 생성되고, 생태계 안에서 지속적으로 순환합니다.
+| 리저브 | 목적 | 이 문서의 초기 적립 경로 |
+|---|---|---|
+| **Active Energy Reserve Pool** | 승인된 정산, 비활동 차감 및 기타 리저브 회계를 위한 공용 생태계 AE 리저브 | 정상 승리 정산된 Explore 결과 AE의 5%와 기타 승인 적립 |
+| **PoA Rewards Pool** | PoA 기여자 랭킹 배분 전용 AE 리저브 | 정상 승리 정산된 Explore 결과 AE의 5% |
 
-순환하는 구조이기 때문에 장기적인 참여가 더 큰 가치를 만들어냅니다.
+Active Energy Reserve Pool은 사용자 화면에서 **Total AE Reserve Pool**로 표시될 수 있습니다. PoA Rewards Pool은 별도의 오프체인 원장 계정입니다. 두 리저브 모두 토큰 금고, 현금 펀드 또는 온체인 자산 풀이 아닙니다.
 
----
+## Explore 정산
 
-## 지속 가능한 구조
+Roulette, Card Flip, Prediction 또는 기타 승인된 Explore 미션에서 정상적으로 승리 정산된 결과는 다음과 같이 나뉩니다.
 
-RocX는 활동이 많아질수록 생태계도 함께 성장하도록 설계했습니다.
+| 총 결과 | 사용자 | Active Energy Reserve Pool | PoA Rewards Pool |
+|---:|---:|---:|---:|
+| 100 AE | 90 AE | 5 AE | 5 AE |
+| 100% | 90% | 5% | 5% |
 
-지원되는 경험과 연결된 Active Energy 일부는 운영 정책에 따라 생태계로 돌아갈 수 있습니다.
-
-일부는 영구적으로 제거되어 균형을 유지하고, 일부는 Reward Pool로 돌아가 다음 참여자를 위한 새로운 활동을 지원합니다.
-
-고정된 비율이나 분배 공식보다 중요한 것은 원칙입니다.
-
----
-
-## 활동은 다시 활동을 만듭니다.
-
-Active Energy는 더 많은 참여를 만듭니다.
-
-더 많은 참여는 다시 더 많은 활동으로 이어집니다.
-
-이 순환 구조는 사용자와 생태계가 함께 성장하도록 설계되었습니다.
-
----
-
-## 경제는 참여 위에서 성장합니다.
-
-RocX는 자본만으로 성장하는 경제가 아니라, 참여가 함께 성장하는 경제를 만듭니다.
-
-Active Energy는 그 중심에서 사용자와 생태계를 연결하는 공통 가치 단위입니다.
-
----
-
-```mermaid
-graph TD
-  A((활동)) --> B((Active Energy))
-  B --> C((참여))
-  C --> D((Reward Pool))
-  D --> E((더 많은 활동))
-  E --> A
-
-  classDef core fill:#eef4ff,stroke:#0133FD,stroke-width:1.5px,color:#07133d;
-  classDef pool fill:#f4f7fb,stroke:#6d7ea6,stroke-width:1.2px,color:#111827;
-
-  class A,B,C,E core;
-  class D pool;
+```text
+Explore 미션
+→ 성공적인 AE 정산
+→ 사용자 90%
+→ Active Energy Reserve Pool 5%
+→ PoA Rewards Pool 5%
+→ 기여자 랭킹 보상
 ```
 
----
+이 분배는 정상적으로 승리 정산된 결과에만 적용됩니다. 취소, 환불, 무승부 또는 정산 실패 처리는 해당 미션 명세를 따릅니다.
 
-<Info>
-건강한 경제는  
-지속적인 참여 위에서  
-만들어집니다.
-</Info>
+Prediction과 Card Flip에 별도의 사전 충전형 풀을 설정하지 않습니다. PoA Rewards Pool은 게임 승리 보상이 아니라 PoA 기여자 랭킹을 위한 재원입니다.
 
-**Active Energy는 RocX 생태계를 계속 살아 움직이게 합니다.**
+## 비활동
+
+기존에 승인된 비활동 차감은 Active Energy Reserve Pool 회계로 유지될 수 있습니다. 이 백서는 비활동 차감분을 PoA Rewards Pool로 보내거나 새로운 비활동 공식을 만들지 않습니다.
+
+## PoA 배분
+
+현재 랭킹 라운드 동안 PoA Rewards Pool에 적립된 AE는 현재 기여자 랭킹 운영 정책의 초기 30% / 30% / 24% / 16% 구간에 따라 상위 100명의 적격 기여자에게 배분됩니다.
+
+풀 잔액과 1인당 AE는 라운드마다 달라집니다. 구간은 운영 정책에 따라 조정될 수 있으며 고정 수익을 보장하지 않습니다.
+
+<Warning>
+AE는 법정화폐나 토큰이 아닙니다. 토큰 배분, 지급, 수익, 금융 수익 또는 미래 가치를 보장하지 않으며 AE와 ROCX 사이에 고정 환산율은 없습니다.
+</Warning>

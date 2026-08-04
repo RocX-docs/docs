@@ -1,72 +1,101 @@
 ---
 title: "Activity Registration & Verification"
+description: "Eligibility, original-link submission, contributor verification, and validity checks for PoA activities."
 icon: "shield-check"
 ---
 
-Registration creates a record for review.
-
-It does not create an automatic reward.
-
-PoA Planet verifies whether an external contribution can become a trusted activity signal inside RocX.
+PoA Planet accepts an original external content URL as a record for verification. Registration does not create an automatic AE reward.
 
 <Info>
-A link becomes valuable only after its source, contributor, and activity can be trusted.
+Create Web3 content on an external platform → Copy the original URL → Register the URL on RocX → Verify account ownership and content validity → Publish the verified activity on the PoA Activity Board
 </Info>
 
----
+## Registration eligibility
 
-## Registration begins with the original URL.
+Users must maintain at least **USD 50 in eligible RocX DeFi deposits** to register an activity. Eligibility is based on the USD value of supported assets, which may include ETH, USDT, USDC, and other assets approved through operating policy.
 
-Users submit the original content URL rather than entering a title, body, image, video, attachment, or custom thumbnail inside RocX.
+The initial threshold is USD 50 and may be adjusted through operating policy. Gross or net calculation, debt treatment, holding time, immediate eligibility, withdrawal effects, oracle source, snapshot time, cross-chain aggregation, and threshold-change procedures remain subject to product specification.
 
-When supported, RocX can detect the platform and retrieve appropriate source metadata. The original platform remains the source of the content.
+One eligible user can register a maximum of **one link per day**. The daily limit resets according to RocX's service operating timezone as defined in the applicable operating policy. Whether a rejected or failed submission consumes the daily limit is not yet fixed.
 
----
+## Supported external platforms
 
-## Verification checks more than availability.
+Initial support may include X, Threads, Instagram, Facebook, LinkedIn, YouTube, TikTok, Reddit, Medium, Telegram, Mirror, GitHub, and other platforms approved through operating policy.
+
+Supported platforms may expand over time depending on verification capability, metadata accessibility, platform policy, and operational requirements. This list does not claim permanent support or completed API integration for every platform.
+
+## Original URL only
+
+The value submitted by the user is the original content URL. Users cannot author or upload a title, body, description, image, video, file, custom thumbnail, hashtag, or comment inside RocX.
+
+Where available and safe, RocX may retrieve:
+
+- original platform;
+- original author or channel;
+- original content title and excerpt;
+- publication time;
+- thumbnail;
+- video duration;
+- content type; and
+- original URL.
+
+Displayed titles, images, and thumbnails are source metadata, not user-authored RocX fields. If metadata cannot be retrieved safely, RocX may display only the platform, author, registration time, original URL, and a **View Original Activity** action. RocX does not claim ownership of or directly host the external content.
+
+## Contributor verification
+
+Users connect supported external accounts in My Page or account settings to their RocX account and wallet. Personal contribution requires the external content's original author or channel to match a connected account.
+
+```text
+RocX wallet account
+→ Connected social account
+→ Submitted external URL
+→ Original author or channel verification
+→ Contributor ownership confirmed
+```
+
+Verification may compare the connected RocX user ID, connected wallet, connected platform account, original author or channel, author identifier in the URL metadata, and the match between registrant and author.
+
+Content from an unconnected account is not recognized as the registrant's own contribution. Users cannot register another person's content as personal contribution. Platforms that cannot expose a reliable original author may be restricted or placed under review.
+
+Third-party curation, curation Reputation, co-authored content, Telegram group-message authorship, corporate-account operator proof, and multiple-account connection limits are not defined here.
+
+## Verification checks
 
 <CardGroup cols={2}>
-  <Card title="Source Verification" icon="link">
-    Checks whether the URL is accessible and comes from a supported or approved source.
+  <Card title="Source verification" icon="link">
+    Reviews approved platforms, URL format, redirects, shortened links, phishing, and malicious domains.
   </Card>
-  <Card title="Contributor Verification" icon="user-check">
-    Checks the relationship between the registrant and the original contributor through connected accounts or other supported methods.
+  <Card title="Contributor verification" icon="user-check">
+    Compares connected accounts with the original author or channel.
   </Card>
-  <Card title="Platform Detection" icon="globe">
-    Identifies the original platform from the submitted URL when possible.
+  <Card title="Uniqueness verification" icon="copy">
+    Reviews duplicate URLs, query-string variants, reposts, and mirror links.
   </Card>
-  <Card title="Uniqueness Verification" icon="copy">
-    Detects duplicate links, repeated submissions, and modified URLs that point to the same content.
+  <Card title="Web3 relevance" icon="cubes">
+    Reviews blockchain, DeFi, infrastructure, L1/L2, crypto, wallets, onchain activity, NFT, RWA, AI and Web3, community, development, research, education, and other approved Web3 fields.
   </Card>
-  <Card title="Web3 Relevance" icon="cubes">
-    Reviews whether the contribution relates to blockchain, crypto, DeFi, infrastructure, communities, or connected ecosystems.
+  <Card title="Content validity" icon="badge-check">
+    Reviews deleted, private, inaccessible, spam, phishing, impersonating, illegal, malicious, or policy-violating content.
   </Card>
-  <Card title="Content Validity" icon="badge-check">
-    Reviews deleted, private, inaccessible, malicious, spam, or policy-violating content.
-  </Card>
-  <Card title="Abuse Review" icon="shield">
-    Reviews multi-wallet behavior, reciprocal evaluation, automation, related account groups, and other manipulation signals.
+  <Card title="Abuse review" icon="shield">
+    Reviews automation, related accounts, reciprocal behavior, duplicate submissions, and other manipulation signals.
   </Card>
 </CardGroup>
 
----
+Verification may combine automated checks, external-platform metadata, connected-account verification, rule-based filters, abuse detection, operator review, and user reports. It is not described as fully automated.
 
-## Contributor verification starts with original contribution.
+## Conceptual activity states
 
-Users may connect supported external accounts to their RocX account and wallet. When the original contributor matches a connected account, the activity can be recognized as the user's own contribution.
+| State | Meaning |
+|---|---|
+| Pending | Registered, but verification is not complete. |
+| Verified | Source, contributor, validity, and relevance checks are complete. |
+| Rejected | The submission did not meet registration requirements. |
+| Hidden | The activity is not visible following operational review or a report. |
+| Invalidated | A previously valid activity became invalid after deletion, privacy changes, ownership mismatch, or another policy event. |
 
-The exact method can vary by platform and operating policy.
-
-Whether third-party curation is supported, how it is credited, and how Telegram channels or groups identify contributors remain policy decisions. This whitepaper does not finalize those rules.
-
----
-
-## Verification states remain a product policy.
-
-An activity may move through review, approval, rejection, visibility, or later invalidation states.
-
-The exact names and transitions are not fixed in this whitepaper. They should follow the implemented product specification and operating policy.
+These are whitepaper-level concepts, not claims about implemented backend enum values. Final state names and transitions must follow the product specification.
 
 <Warning>
-Registration does not guarantee verification, Active Energy, ranking, or any other benefit.
+A valid registration must be within the daily limit, originate from the user's connected account, use a supported or approved platform, pass Web3 relevance and uniqueness checks, remain accessible, and comply with policy. Registration or verification does not guarantee AE, Reputation, ranking, or another benefit.
 </Warning>
