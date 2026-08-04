@@ -13,3 +13,25 @@
 #localization-select-trigger {
   transform: translateY(1.5px);
 }
+
+/* 활동 증명 시장 비교표에서 RocX 모델을 하나의 테두리 행으로 강조 */
+.rocx-comparison-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.rocx-comparison-table .rocx-highlight-row td {
+  border-top: 2px solid #0133fd !important;
+  border-bottom: 2px solid #0133fd !important;
+  background-color: rgba(1, 51, 253, 0.06);
+}
+
+.rocx-comparison-table .rocx-highlight-row td:first-child {
+  border-left: 2px solid #0133fd !important;
+  border-radius: 8px 0 0 8px;
+}
+
+.rocx-comparison-table .rocx-highlight-row td:last-child {
+  border-right: 2px solid #0133fd !important;
+  border-radius: 0 8px 8px 0;
+}
