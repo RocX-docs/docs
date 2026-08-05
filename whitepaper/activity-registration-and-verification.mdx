@@ -83,19 +83,3 @@ Third-party curation, curation Reputation, co-authored content, Telegram group-m
 </CardGroup>
 
 Verification may combine automated checks, external-platform metadata, connected-account verification, rule-based filters, abuse detection, operator review, and user reports. It is not described as fully automated.
-
-## Conceptual activity states
-
-| State | Meaning |
-|---|---|
-| Pending | Registered, but verification is not complete. |
-| Verified | Source, contributor, validity, and relevance checks are complete. |
-| Rejected | The submission did not meet registration requirements. |
-| Hidden | The activity is not visible following operational review or a report. |
-| Invalidated | A previously valid activity became invalid after deletion, privacy changes, ownership mismatch, or another policy event. |
-
-These are whitepaper-level concepts, not claims about implemented backend enum values. Final state names and transitions must follow the product specification.
-
-<Warning>
-A valid registration must be within the daily limit, originate from the user's connected account, use a supported or approved platform, pass Web3 relevance and uniqueness checks, remain accessible, and comply with policy. Registration or verification does not guarantee AE, Reputation, ranking, or another benefit.
-</Warning>
