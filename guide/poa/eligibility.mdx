@@ -1,0 +1,36 @@
+---
+title: "PoA Eligibility"
+description: "Qualify to register and evaluate PoA activity."
+icon: "user-check"
+---
+
+PoA activity registration, Helpful, and Not Helpful require an eligible RocX DeFi deposit.
+
+## Requirements
+
+1. Reach at least **USD 50** in eligible deposits.
+2. Maintain that level continuously for **24 hours**.
+3. Pass the scheduled eligibility check.
+4. Still have at least USD 50 when each PoA action is attempted.
+
+```text
+USD 50+ eligible deposit
+→ Maintain for 24 hours
+→ Scheduled eligibility check
++ Real-time deposit check
+→ Registration and evaluation permission
+```
+
+## Two checks
+
+The scheduled snapshot runs daily at **00:00 UTC / 09:00 KST** and reviews the eligible amount, USD 50 threshold, 24-hour duration, and permission state. Every registration, Helpful, and Not Helpful action also performs a real-time deposit check.
+
+<Warning>
+If eligible deposits fall below USD 50, access can turn off immediately. Returning to USD 50 or more starts a new 24-hour period; the earlier elapsed time does not carry over.
+</Warning>
+
+Deposit size above USD 50 does not increase evaluation count or vote weight. The threshold is an access requirement, not a purchase of additional voting power.
+
+<Note>
+The PoA eligibility snapshot at 09:00 KST is different from the Deposit AE snapshot at 08:59:59 KST.
+</Note>

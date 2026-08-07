@@ -1,13 +1,25 @@
 ---
-title: "Roulette Mission"
-description: "AE settlement principles for the RocX Roulette mission."
+title: "Roulette"
+description: "Join a 4-player or 8-player AE room and claim a server-settled result."
 icon: "circle-notch"
 ---
 
-Roulette is an Explore participation mission governed by its product-specific entry, result, cancellation, refund, and abuse rules.
+Roulette offers three rooms that can be open at the same time: **4 Player A**, **4 Player B**, and **8 Player C**. Entry is fixed at **100 AE**.
 
-For a normally settled winning result, the user receives 90% of gross result AE, 5% enters the Active Energy Reserve Pool, and 5% enters the PoA Rewards Pool.
+## Join a round
 
-<Note>
-The PoA Rewards Pool funds Contributor Ranking distributions, not the Roulette win itself. Cancellation, refund, draw, and failed-settlement treatment follows the mission specification.
-</Note>
+<Steps>
+  <Step title="Choose a room">Select one available round. One wallet can hold one seat in a round.</Step>
+  <Step title="Confirm entry">Approve the 100 AE entry action.</Step>
+  <Step title="Wait for the room">The empty-round timer starts with the first participant. The last participant fills the room and triggers the spin immediately.</Step>
+  <Step title="Review the result">The animation must stop on the winner segment selected by the server.</Step>
+  <Step title="Claim if you win">The winner uses a wallet signature to claim. MVP claims do not expire.</Step>
+</Steps>
+
+There is no Ready button or 30-second Ready delay. The same wallet can participate in up to three different rounds at once.
+
+## Cancellation and pool allocation
+
+If a room does not fill within 24 hours of its first participant, the round is canceled and entry AE is refunded. A server, network, or transient error that prevents a valid result also cancels the game with a 100% refund.
+
+When the approved Roulette payout includes the shared 10% allocation, 5% is recorded in the Active Energy Reserve Pool and 5% in the PoA Rewards Pool. The winner amount uses the current Roulette-specific rule shown in the product; this repository does not contain a separate payout table.

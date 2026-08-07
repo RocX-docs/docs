@@ -1,0 +1,25 @@
+---
+title: "Repay"
+description: "Reduce or close a DeFi Planet debt position."
+icon: "rotate-left"
+---
+
+Repay uses the borrowed asset to reduce a partial or full debt position.
+
+## Before you start
+
+Hold enough of the repay asset and testnet gas. Use the current debt amount shown by RocX because accrued interest can change the total.
+
+## Repay debt
+
+<Steps>
+  <Step title="Open the debt position">Select **Repay** for the asset you borrowed.</Step>
+  <Step title="Choose partial or full">Enter an amount or use the full-repay option if the interface provides it.</Step>
+  <Step title="Approve when required">Confirm the token approval, then return to the Repay transaction.</Step>
+  <Step title="Confirm Repay">Review the updated amount and approve the wallet transaction.</Step>
+  <Step title="Verify the result">Check that debt decreased and Health Factor improved after confirmation.</Step>
+</Steps>
+
+<Note>
+Interest can accrue while a transaction is prepared. If a small balance remains after attempting full repayment, refresh the position and use the updated amount shown by the interface. The repository does not define a separate dust-handling rule.
+</Note>

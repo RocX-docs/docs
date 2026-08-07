@@ -1,13 +1,38 @@
 ---
-title: "Card Flip Mission"
-description: "AE settlement principles for the RocX Card Flip mission."
+title: "Card Flip"
+description: "Use the nine-card MVP v2 mission and reveal only your selection."
 icon: "cards"
 ---
 
-Card Flip is an Explore participation mission governed by its product-specific entry, result, cancellation, refund, and abuse rules.
+Card Flip displays nine card backs. Select one card; only that card flips and reveals its result. The other eight stay hidden, including after refresh or reconnect.
 
-For a normally settled winning result, the user receives 90% of gross result AE, 5% enters the Active Energy Reserve Pool, and 5% enters the PoA Rewards Pool.
+## Rules
+
+- Bet: minimum 100 AE; maximum 1,000 AE
+- Each card slot: 1/9, or 11.11%
+- Composition: one 250%, one 150%, one KEEP, three -20%, three -50%
+
+| Result | Overall probability | Result for 100 AE |
+|---|---:|---:|
+| 250% | 11.11% | 250 AE gross; 10% claim deduction; **225 AE final** |
+| 150% | 11.11% | 150 AE gross; 10% claim deduction; **135 AE final** |
+| KEEP | 11.11% | **100 AE returned** |
+| -20% | 33.33% | **80 AE returned** |
+| -50% | 33.33% | **50 AE returned** |
+
+User RTP is **94.44%**. The overall result rate before claim deduction is **98.89%**, and average user AE reduction is **5.56%**. These figures explain game rules, not investment returns.
+
+## Play
+
+<Steps>
+  <Step title="Enter an amount">Choose 100-1,000 AE.</Step>
+  <Step title="Select one card">Choose one of the nine backs.</Step>
+  <Step title="Reveal the selected result">Only your selected card flips; the other eight remain hidden.</Step>
+  <Step title="Settle">Review the final amount and status in Game History.</Step>
+</Steps>
+
+The 10% claim deduction on the 250% and 150% results is split 5% to the Active Energy Reserve Pool and 5% to the PoA Rewards Pool.
 
 <Note>
-Card Flip does not require a separately pre-funded pool in this whitepaper. The PoA Rewards Pool funds Contributor Ranking distributions, not the Card Flip win itself.
+Game rules are fixed when a session begins. Later rule updates apply only to newly created games.
 </Note>

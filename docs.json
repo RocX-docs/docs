@@ -113,40 +113,85 @@
             "tab": "\uc774\uc6a9 \uac00\uc774\ub4dc",
             "groups": [
               {
-                "group": "\uac00\uc774\ub4dc \uc2dc\uc791",
+                "group": "\uc2dc\uc791\ud558\uae30",
                 "icon": "rocket",
                 "pages": [
                   "kr/guide/index",
-                  "kr/guide/getting-started"
+                  "kr/guide/getting-started",
+                  "kr/guide/testnet-networks",
+                  "kr/guide/three-planets"
                 ]
               },
               {
-                "group": "DeFi \ud589\uc131",
+                "group": "DeFi Planet",
                 "icon": "coins",
                 "pages": [
+                  "kr/guide/defi/overview",
                   "kr/guide/defi/deposit",
-                  "kr/guide/defi/lending",
+                  "kr/guide/defi/withdraw",
+                  "kr/guide/defi/borrow",
+                  "kr/guide/defi/repay",
+                  "kr/guide/defi/health-factor",
                   "kr/guide/defi/swap",
-                  "kr/guide/defi/bridge"
+                  "kr/guide/defi/bridge",
+                  "kr/guide/defi/safety"
                 ]
               },
               {
-                "group": "PoA \ud589\uc131",
+                "group": "PoA Planet",
                 "icon": "fingerprint",
                 "pages": [
-                  "kr/guide/poa/activity-board",
+                  "kr/guide/poa/overview",
+                  "kr/guide/poa/connect-social-account",
+                  "kr/guide/poa/eligibility",
                   "kr/guide/poa/register-activity",
-                  "kr/guide/poa/evaluate-activity"
+                  "kr/guide/poa/evaluate-activity",
+                  "kr/guide/poa/contribution-score",
+                  "kr/guide/poa/contributor-ranking",
+                  "kr/guide/poa/rewards-pool",
+                  "kr/guide/poa/activity-board",
+                  "kr/guide/poa/my-activity"
                 ]
               },
               {
-                "group": "Explore \ud589\uc131",
+                "group": "Explore Planet",
                 "icon": "compass",
                 "pages": [
+                  "kr/guide/explore",
                   "kr/guide/explore/activity-proof",
-                  "kr/guide/explore/card-flip",
                   "kr/guide/explore/roulette-mission",
+                  "kr/guide/explore/card-flip",
                   "kr/guide/explore/prediction-mission"
+                ]
+              },
+              {
+                "group": "Active Energy",
+                "icon": "bolt",
+                "pages": [
+                  "kr/guide/active-energy/overview",
+                  "kr/guide/active-energy/how-ae-is-earned",
+                  "kr/guide/active-energy/deposit-ae",
+                  "kr/guide/active-energy/reserve-pools",
+                  "kr/guide/active-energy/ae-history"
+                ]
+              },
+              {
+                "group": "\ud504\ub85c\ud544 \ubc0f \uacc4\uc815",
+                "icon": "user",
+                "pages": [
+                  "kr/guide/profile/my-page",
+                  "kr/guide/profile/nft-profile",
+                  "kr/guide/profile/activity-history",
+                  "kr/guide/profile/leaderboard"
+                ]
+              },
+              {
+                "group": "\uc9c0\uc6d0",
+                "icon": "life-ring",
+                "pages": [
+                  "kr/guide/support/faq",
+                  "kr/guide/support/troubleshooting",
+                  "kr/guide/support/security"
                 ]
               }
             ]
@@ -247,36 +292,81 @@
                 "icon": "rocket",
                 "pages": [
                   "guide/index",
-                  "guide/getting-started"
+                  "guide/getting-started",
+                  "guide/testnet-networks",
+                  "guide/three-planets"
                 ]
               },
               {
                 "group": "DeFi Planet",
                 "icon": "coins",
                 "pages": [
+                  "guide/defi/overview",
                   "guide/defi/deposit",
-                  "guide/defi/lending",
+                  "guide/defi/withdraw",
+                  "guide/defi/borrow",
+                  "guide/defi/repay",
+                  "guide/defi/health-factor",
                   "guide/defi/swap",
-                  "guide/defi/bridge"
+                  "guide/defi/bridge",
+                  "guide/defi/safety"
                 ]
               },
               {
                 "group": "PoA Planet",
                 "icon": "fingerprint",
                 "pages": [
-                  "guide/poa/activity-board",
+                  "guide/poa/overview",
+                  "guide/poa/connect-social-account",
+                  "guide/poa/eligibility",
                   "guide/poa/register-activity",
-                  "guide/poa/evaluate-activity"
+                  "guide/poa/evaluate-activity",
+                  "guide/poa/contribution-score",
+                  "guide/poa/contributor-ranking",
+                  "guide/poa/rewards-pool",
+                  "guide/poa/activity-board",
+                  "guide/poa/my-activity"
                 ]
               },
               {
                 "group": "Explore Planet",
                 "icon": "compass",
                 "pages": [
+                  "guide/explore",
                   "guide/explore/activity-proof",
-                  "guide/explore/card-flip",
                   "guide/explore/roulette-mission",
+                  "guide/explore/card-flip",
                   "guide/explore/prediction-mission"
+                ]
+              },
+              {
+                "group": "Active Energy",
+                "icon": "bolt",
+                "pages": [
+                  "guide/active-energy/overview",
+                  "guide/active-energy/how-ae-is-earned",
+                  "guide/active-energy/deposit-ae",
+                  "guide/active-energy/reserve-pools",
+                  "guide/active-energy/ae-history"
+                ]
+              },
+              {
+                "group": "Profile & Account",
+                "icon": "user",
+                "pages": [
+                  "guide/profile/my-page",
+                  "guide/profile/nft-profile",
+                  "guide/profile/activity-history",
+                  "guide/profile/leaderboard"
+                ]
+              },
+              {
+                "group": "Support",
+                "icon": "life-ring",
+                "pages": [
+                  "guide/support/faq",
+                  "guide/support/troubleshooting",
+                  "guide/support/security"
                 ]
               }
             ]

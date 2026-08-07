@@ -1,0 +1,22 @@
+---
+title: "AE Reserve Pools"
+description: "Distinguish the common AE reserve from the PoA ranking reserve."
+icon: "database"
+---
+
+RocX tracks two separate offchain AE ledger pools.
+
+| Pool | Purpose |
+|---|---|
+| **Active Energy Reserve Pool** | Common AE reserve. The interface may call the same pool **Total AE Pool**, **Total Reserve Pool**, or **AE Reserve Pool**. |
+| **PoA Rewards Pool** | Separate reserve dedicated to 14-day Contributor Ranking distributions. |
+
+Neither pool is a cash pool, ROCX token treasury, or transferable onchain asset pool.
+
+## Explore allocation
+
+When an approved mission's normally settled winning result contains the shared 10% allocation, it is divided into **5% Active Energy Reserve Pool** and **5% PoA Rewards Pool**. Mission-specific payout math still controls the user's result.
+
+<Warning>
+Do not infer an accounting destination for every AE reduction. Where the current mission specification does not define it, the guide states only that the AE balance is reduced according to the mission result.
+</Warning>

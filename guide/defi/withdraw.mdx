@@ -1,0 +1,33 @@
+---
+title: "Withdraw"
+description: "Withdraw an available supplied amount and review collateral effects."
+icon: "arrow-up-from-bracket"
+---
+
+Withdraw returns an available supplied asset from DeFi Planet to your connected wallet.
+
+## Before you start
+
+Review **Available to Withdraw**, current debt, collateral use, and the Health Factor preview. A supplied balance can be larger than the amount safely available.
+
+## Withdraw
+
+<Steps>
+  <Step title="Select the asset">Open the supplied position and choose **Withdraw**.</Step>
+  <Step title="Choose partial or full">Enter an amount no greater than **Available to Withdraw**. A full withdrawal may be unavailable while debt depends on the collateral.</Step>
+  <Step title="Review risk">Check the projected Health Factor and any liquidation warning.</Step>
+  <Step title="Confirm">Approve the transaction in your wallet and wait for its final status.</Step>
+  <Step title="Check balances">Confirm the wallet balance and remaining supplied position.</Step>
+</Steps>
+
+## Effects outside DeFi
+
+- Deposit AE is recalculated from the eligible deposited amount.
+- Attendance Streak is not reset by a partial or full withdrawal.
+- A full withdrawal leaves no eligible amount for Deposit AE.
+- If eligible deposits fall below USD 50, PoA registration and evaluation access can turn off immediately after the real-time check.
+- Returning to USD 50 or more starts a new 24-hour qualification period.
+
+<Warning>
+Withdrawing collateral can lower Health Factor and increase liquidation risk. Repay debt or reduce the withdrawal if the preview is unsafe.
+</Warning>

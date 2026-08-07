@@ -1,13 +1,34 @@
 ---
-title: "Card Flip 미션"
-description: "RocX Card Flip 미션의 AE 정산 원칙입니다."
+title: "Card Flip"
+description: "MVP v2의 9장 중 선택한 카드만 공개합니다."
 icon: "cards"
 ---
 
-Card Flip은 제품별 참여, 결과, 취소, 환불 및 어뷰징 규칙을 따르는 Explore 참여 미션입니다.
+Card Flip은 9장의 Card Back을 표시합니다. 1장을 선택하면 선택 카드만 앞면과 결과를 공개하고 나머지 8장은 새로고침 또는 재접속 후에도 숨김 상태를 유지합니다.
 
-정상적으로 승리 정산된 결과에서 사용자는 총 결과 AE의 90%를 받고, 5%는 Active Energy Reserve Pool에, 5%는 PoA Rewards Pool에 적립됩니다.
+- Bet: 최소 100 AE, 최대 1,000 AE
+- 각 Slot 선택 확률: 1/9 = 11.11%
+- 구성: 250% 1장, 150% 1장, KEEP 1장, -20% 3장, -50% 3장
+
+| 결과 | 전체 확률 | 100 AE 결과 |
+|---|---:|---:|
+| 250% | 11.11% | Gross 250 AE, 10% Claim Deduction, **최종 225 AE** |
+| 150% | 11.11% | Gross 150 AE, 10% Claim Deduction, **최종 135 AE** |
+| KEEP | 11.11% | **100 AE 반환** |
+| -20% | 33.33% | **80 AE 반환** |
+| -50% | 33.33% | **50 AE 반환** |
+
+User RTP는 **94.44%**, Claim Deduction 전 전체 결과율은 **98.89%**, Average User AE Reduction은 **5.56%**입니다. 투자 수익이 아니라 게임 규칙 정보입니다.
+
+<Steps>
+  <Step title="수량 입력">100-1,000 AE를 선택합니다.</Step>
+  <Step title="카드 1장 선택">9장의 뒷면 중 하나를 선택합니다.</Step>
+  <Step title="선택 결과 공개">선택한 1장만 뒤집히고 나머지 8장은 공개하지 않습니다.</Step>
+  <Step title="정산 확인">Game History에서 최종 수량과 상태를 확인합니다.</Step>
+</Steps>
+
+250%와 150% 결과의 10% Claim Deduction은 5% Active Energy Reserve Pool과 5% PoA Rewards Pool로 나뉩니다.
 
 <Note>
-이 백서는 Card Flip을 위한 별도의 사전 충전형 풀을 만들지 않습니다. PoA Rewards Pool은 Card Flip 승리 보상이 아니라 기여자 랭킹 배분에 사용합니다.
+Game Session 시작 시 규칙이 고정됩니다. 이후 규칙 변경은 새로 생성된 Game에만 적용됩니다.
 </Note>

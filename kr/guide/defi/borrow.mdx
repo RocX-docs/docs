@@ -1,0 +1,25 @@
+---
+title: "Borrow"
+description: "예치 담보를 기준으로 지원 테스트넷 자산을 차입합니다."
+icon: "hand-holding-dollar"
+---
+
+Borrow는 적격 담보를 기준으로 부채를 생성합니다.
+
+## 시작 전 확인
+
+현재 화면에서 담보로 인정되는 자산을 먼저 Deposit합니다. **Available Borrow Amount**, 예상 Health Factor, 이자 정보, 청산 위험을 확인합니다.
+
+<Steps>
+  <Step title="자산 선택">**Borrow**에서 차입 가능한 자산을 선택합니다.</Step>
+  <Step title="수량 입력">한도 안에서 안전 여유를 남긴 수량을 입력합니다.</Step>
+  <Step title="Preview 검토">예상 부채, 이자, 담보 영향과 Health Factor를 확인합니다.</Step>
+  <Step title="지갑 승인">Borrow 트랜잭션을 제출하고 확정을 기다립니다.</Step>
+  <Step title="포지션 확인">지갑 잔액과 갱신된 부채를 Portfolio에서 확인합니다.</Step>
+</Steps>
+
+차입 후 이자가 누적될 수 있으므로 Repay 수량은 처음 받은 수량보다 많을 수 있습니다.
+
+<Warning>
+저장소에 현재 컨트랙트 설정이 없어 정확한 청산 기준 숫자를 기재하지 않습니다. 다른 프로토콜의 값을 적용하지 마세요.
+</Warning>

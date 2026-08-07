@@ -1,0 +1,18 @@
+---
+title: "AE Reserve Pools"
+description: "공용 AE Reserve와 PoA Ranking Reserve를 구분합니다."
+icon: "database"
+---
+
+| Pool | 목적 |
+|---|---|
+| **Active Energy Reserve Pool** | 공용 AE Reserve. UI에서는 **Total AE Pool**, **Total Reserve Pool**, **AE Reserve Pool**로 표시할 수 있으며 모두 같은 Pool입니다. |
+| **PoA Rewards Pool** | 14일 Contributor Ranking 배분 전용 별도 Reserve입니다. |
+
+두 Pool 모두 Cash Pool, ROCX Token Treasury 또는 Transferable Onchain Asset Pool이 아닙니다.
+
+승리 결과에 승인된 공용 10% Allocation이 포함된 Mission은 **5% Active Energy Reserve Pool + 5% PoA Rewards Pool**로 나눕니다. 사용자 결과는 각 Mission 전용 수학을 우선합니다.
+
+<Warning>
+모든 AE 감소의 회계 Destination을 추정하지 않습니다. 명세에 목적지가 없으면 `AE balance is reduced according to the mission result.` 수준으로만 설명합니다.
+</Warning>

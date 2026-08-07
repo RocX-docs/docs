@@ -1,0 +1,33 @@
+---
+title: "Deposit AE"
+description: "Calculate daily AE from eligible RocX DeFi deposits."
+icon: "vault"
+---
+
+Deposit AE is calculated from the eligible deposited USD amount at the daily snapshot.
+
+```text
+USD 10 per day = 5 AE
+USD 1 per day = 0.5 AE
+```
+
+There is no separate Deposit AE cap under the current policy. Internal precision can use up to eight decimal places; the user interface displays two decimal places.
+
+## Daily snapshot
+
+The Deposit AE snapshot occurs at **08:59:59 KST**. It is different from the PoA eligibility snapshot at 09:00 KST.
+
+## Boosts
+
+| Attendance Streak | Deposit AE Boost |
+|---|---:|
+| Day 1-6 | 0% |
+| Day 7-14 | +5% |
+| Day 15-29 | +10% |
+| Day 30+ | +15% |
+
+An eligible NFT Profile can add **5%, 7%, 10%, or 15%** according to the implemented mapping. Attendance and NFT Profile boosts are additive, with a combined cap of **+30%**.
+
+<Note>
+Withdrawal does not reset Attendance Streak. It changes the eligible deposited amount. A full withdrawal means there is no Deposit AE until an eligible amount is deposited again.
+</Note>

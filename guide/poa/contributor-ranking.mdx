@@ -1,0 +1,39 @@
+---
+title: "14-Day Contributor Ranking"
+description: "Understand PoA ranking rounds, tie-breaking, and final revalidation."
+icon: "ranking-star"
+---
+
+PoA ranks contributors over a 14-day round. A round begins every other Sunday at **00:00 UTC / 09:00 KST**.
+
+```text
+Round Start
+→ Activities Registered
+→ Eligible Evaluations
+→ Content Revalidation
+→ Final Score Calculation
+→ Contributor Ranking
+→ AE Distribution
+→ Next Round
+```
+
+The top 100 eligible contributors can receive AE from that round's PoA Rewards Pool. Round scores restart for the next round; long-term Activity History and Reputation history can remain.
+
+## Tie-breaking
+
+1. Higher Net Score
+2. If equal, more Helpful
+3. If still equal, fewer Not Helpful
+4. If all three are equal, shared rank
+
+```text
+netScore DESC
+helpfulCount DESC
+notHelpfulCount ASC
+```
+
+When users fully tie, they divide the AE assigned to that rank equally. Example: if Rank 100 receives 100 AE and five users share Rank 100, each receives 20 AE. The tie does not mint extra AE beyond the pool.
+
+## Revalidation before distribution
+
+After the round, RocX checks the original content again. Deleted content is excluded from ranking, not merely assigned zero. Private, unavailable, author-mismatched, malicious, duplicate, manipulated, or policy-violating content can also be invalidated or reviewed. Evaluations attached to excluded content do not count in the final ranking.

@@ -1,12 +1,21 @@
 ---
-title: "브릿지"
+title: "Bridge"
+description: "표시된 네트워크 사이에서 지원 테스트넷 자산을 이동합니다."
 icon: "bridge"
 ---
 
-## 브릿지
+Bridge는 Cross-chain Transfer입니다. 실제 Integration Provider와 지원 네트워크 목록은 이 저장소에 없으므로 RocX 화면에 표시된 선택지만 사용합니다.
 
-이 가이드는 RocX DeFi 행성에서 체인 간 자산을 이동하는 방법을 안내합니다.
+<Steps>
+  <Step title="네트워크 선택">Source와 Destination Network를 선택합니다.</Step>
+  <Step title="자산 및 수량 선택">양쪽에서 지원되는 자산인지 확인합니다.</Step>
+  <Step title="Quote 검토">Fee, 예상 도착 수량, Route와 경고를 확인합니다.</Step>
+  <Step title="목적지 확인">Destination Address와 Network를 재확인합니다.</Step>
+  <Step title="Approve 및 Confirm">필요한 경우 Token Approval 후 Source Transaction을 승인합니다.</Step>
+  <Step title="처리 대기">Source Confirmation과 Destination Settlement를 구분해 확인합니다.</Step>
+  <Step title="도착 확인">Destination Network에서 지갑 잔액을 확인합니다.</Step>
+</Steps>
 
-<Note>
-단계별 상세 내용은 준비 중입니다. 곧 업데이트됩니다.
-</Note>
+<Warning>
+Bridge는 Swap보다 오래 걸릴 수 있습니다. Source Transaction 성공이 Destination Settlement 완료를 뜻하지 않습니다.
+</Warning>

@@ -1,13 +1,35 @@
 ---
-title: "Prediction 미션"
-description: "RocX Prediction 미션의 AE 정산 원칙입니다."
+title: "Prediction"
+description: "개별 60초 BTC/USDT UP 또는 DOWN Mission에 참여합니다."
 icon: "chart-line"
 ---
 
-Prediction은 제품별 마켓, 결과, 취소, 환불, 무승부, 정산 실패 및 어뷰징 규칙을 따르는 Explore 참여 미션입니다.
+Prediction은 PvP가 아닌 Individual BTC Price Direction Mission입니다.
 
-정상적으로 승리 정산된 결과에서 사용자는 총 결과 AE의 90%를 받고, 5%는 Active Energy Reserve Pool에, 5%는 PoA Rewards Pool에 적립됩니다.
+- Round: 60초
+- 선택: **UP** 또는 **DOWN**
+- Bet: 최소 100 AE, 최대 1,000 AE
+- Final Price > Start Price: UP
+- Final Price < Start Price: DOWN
+- 동일: Draw
+
+| 결과 | 100 AE Bet 정산 |
+|---|---:|
+| Win | **최종 190 AE**, Claim 시 Wallet Signature 필요 |
+| Loss | **100 AE 전액 감소** |
+| Draw | **100 AE Refund** |
+| Server 또는 Price Data Error | Cancel 후 **100% Refund** |
+
+Loss/Draw는 현재 구현 기준 즉시 반영되며 별도 Pre-funded Prediction Reward Pool은 없습니다.
+
+<Steps>
+  <Step title="Round 확인">BTC/USDT, 화면의 Price Source, Countdown, Start Price를 확인합니다.</Step>
+  <Step title="방향 선택">UP 또는 DOWN과 100-1,000 AE를 선택합니다.</Step>
+  <Step title="참여 확인">Round 종료 전 Mission Action을 승인합니다.</Step>
+  <Step title="정산 대기">Server Final Price와 Start Price를 비교합니다.</Step>
+  <Step title="Win Claim">필요한 Claim Signature 후 Game History를 확인합니다.</Step>
+</Steps>
 
 <Note>
-이 백서는 Prediction을 위한 별도의 사전 충전형 풀을 만들지 않습니다. PoA Rewards Pool은 Prediction 승리 보상이 아니라 기여자 랭킹 배분에 사용합니다.
+현재 구현 Price Provider는 저장소에서 확인되지 않습니다. 실제 제품 표시가 없다면 Binance라고 가정하지 마세요.
 </Note>

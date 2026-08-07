@@ -1,13 +1,21 @@
 ---
-title: "Roulette 미션"
-description: "RocX Roulette 미션의 AE 정산 원칙입니다."
+title: "Roulette"
+description: "4인 또는 8인 AE Room에 참여하고 Server Result를 Claim합니다."
 icon: "circle-notch"
 ---
 
-Roulette는 제품별 참여, 결과, 취소, 환불 및 어뷰징 규칙을 따르는 Explore 참여 미션입니다.
+동시에 열릴 수 있는 Room은 **4 Player A**, **4 Player B**, **8 Player C**이며 Entry Fee는 **100 AE 고정**입니다.
 
-정상적으로 승리 정산된 결과에서 사용자는 총 결과 AE의 90%를 받고, 5%는 Active Energy Reserve Pool에, 5%는 PoA Rewards Pool에 적립됩니다.
+<Steps>
+  <Step title="Room 선택">한 Wallet은 한 Round에 Seat 1개만 참여합니다.</Step>
+  <Step title="Entry 확인">100 AE 참여를 승인합니다.</Step>
+  <Step title="Room 대기">첫 참가 시 Timer가 시작되고 마지막 참가자가 Room을 채우면 즉시 Spin합니다.</Step>
+  <Step title="결과 확인">Animation은 Server가 결정한 Winner Segment에서 종료됩니다.</Step>
+  <Step title="승리 Claim">Winner는 Wallet Signature로 Claim합니다. MVP에는 Claim Expiration이 없습니다.</Step>
+</Steps>
 
-<Note>
-PoA Rewards Pool은 Roulette 승리 보상이 아니라 기여자 랭킹 배분에 사용합니다. 취소, 환불, 무승부 및 정산 실패 처리는 미션 명세를 따릅니다.
-</Note>
+Ready Button과 30초 Ready Delay는 없습니다. 동일 Wallet은 서로 다른 Round 최대 3개에 동시 참여할 수 있습니다.
+
+첫 참가 후 24시간 안에 Room이 채워지지 않으면 Round를 Cancel하고 참가 AE를 Refund합니다. 정상 결과를 만들 수 없는 Server/Network/Transient Error도 100% Refund합니다.
+
+승리 정산의 공용 10% 배분이 적용되는 경우 5%는 Active Energy Reserve Pool, 5%는 PoA Rewards Pool로 기록됩니다. 사용자 지급 수학은 실제 Roulette 전용 규칙을 우선하며 저장소에는 별도 지급표가 없습니다.

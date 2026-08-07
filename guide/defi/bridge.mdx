@@ -1,12 +1,23 @@
 ---
 title: "Bridge"
+description: "Move a supported testnet asset between displayed networks."
 icon: "bridge"
 ---
 
-## Bridge
+Bridge is a cross-chain transfer. The current integration provider and supported network list are not present in this repository, so use only options displayed by the RocX interface.
 
-This guide shows you how to move assets across chains in RocX DeFi Planet.
+## Bridge an asset
 
-<Note>
-Detailed steps are on the way. This page will be updated soon.
-</Note>
+<Steps>
+  <Step title="Select networks">Choose the source and destination networks shown by RocX.</Step>
+  <Step title="Select asset and amount">Confirm that the asset is supported on both sides.</Step>
+  <Step title="Review the quote">Check fees, amount expected at destination, route, and any warnings shown.</Step>
+  <Step title="Review the destination">Confirm the destination address and network. A wrong choice can make assets inaccessible.</Step>
+  <Step title="Approve and confirm">Approve the token when required, then confirm the source transaction.</Step>
+  <Step title="Wait for processing">Track source confirmation separately from destination settlement.</Step>
+  <Step title="Confirm arrival">Check the destination network and wallet balance.</Step>
+</Steps>
+
+<Warning>
+Bridge processing can take longer than a Swap. A successful source transaction does not always mean the destination is already settled. Do not repeat a transfer until you have checked its status.
+</Warning>

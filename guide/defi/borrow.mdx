@@ -1,0 +1,27 @@
+---
+title: "Borrow"
+description: "Borrow a supported testnet asset against supplied collateral."
+icon: "hand-holding-dollar"
+---
+
+Borrow creates debt against eligible collateral in DeFi Planet.
+
+## Before you start
+
+Deposit an asset that the current interface accepts as collateral. Review **Available Borrow Amount**, the projected Health Factor, interest information, and liquidation risk.
+
+## Borrow
+
+<Steps>
+  <Step title="Select an asset">Open **Borrow** and choose an available asset.</Step>
+  <Step title="Enter an amount">Keep the amount within the available limit and leave a safety margin.</Step>
+  <Step title="Review the preview">Check projected debt, interest, collateral impact, and Health Factor.</Step>
+  <Step title="Confirm in your wallet">Submit the Borrow transaction and wait for confirmation.</Step>
+  <Step title="Check the position">Confirm the wallet balance and updated debt in your Portfolio.</Step>
+</Steps>
+
+Interest can accrue after borrowing, so the repay amount can be higher than the original amount received.
+
+<Warning>
+A lower Health Factor means less protection from liquidation. RocX does not document a fixed liquidation threshold here because the current contract configuration is not present in this repository.
+</Warning>

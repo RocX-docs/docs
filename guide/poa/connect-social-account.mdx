@@ -1,0 +1,29 @@
+---
+title: "Connect Your Social Account"
+description: "Use OAuth to verify ownership of an external contributor account."
+icon: "link"
+---
+
+A supported social account connects your RocX wallet identity to the account that created the external content.
+
+## Why RocX uses OAuth
+
+OAuth can confirm account ownership, platform user ID, and whether the submitted URL's original author matches the connected account. Its role in PoA is contributor ownership verification.
+
+## Connect an account
+
+<Steps>
+  <Step title="Open My Page">Go to **Connected Accounts**.</Step>
+  <Step title="Select a platform">Choose a platform that the current interface marks as available.</Step>
+  <Step title="Authorize OAuth">On the platform's authorization screen, review the requested permissions and approve only if you agree.</Step>
+  <Step title="Confirm connection">Return to RocX and verify the connected platform account.</Step>
+  <Step title="Meet PoA eligibility">Activity registration becomes available only when the social connection and deposit requirements are both satisfied.</Step>
+</Steps>
+
+## Platform status
+
+RocX can release platform support gradually through feature flags. Platforms requiring API access, OAuth approval, or app review can appear as **Coming Soon** or **Under Review**. The documentation repository does not contain the current enabled-platform configuration; the current RocX interface is the source for **Supported Now** status.
+
+<Warning>
+Disconnecting or changing an external account can affect contributor verification. Never share OAuth credentials, wallet keys, or recovery phrases with support.
+</Warning>

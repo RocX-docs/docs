@@ -1,13 +1,37 @@
 ---
-title: "Prediction Mission"
-description: "AE settlement principles for the RocX Prediction mission."
+title: "Prediction"
+description: "Choose BTC/USDT UP or DOWN for an individual 60-second mission."
 icon: "chart-line"
 ---
 
-Prediction is an Explore participation mission governed by its product-specific market, result, cancellation, refund, draw, failed-settlement, and abuse rules.
+Prediction is an individual BTC/USDT price-direction mission, not PvP.
 
-For a normally settled winning result, the user receives 90% of gross result AE, 5% enters the Active Energy Reserve Pool, and 5% enters the PoA Rewards Pool.
+## Rules
+
+- Round: 60 seconds
+- Choice: **UP** or **DOWN**
+- Bet: minimum 100 AE; maximum 1,000 AE
+- UP wins when Final Price is higher than Start Price
+- DOWN wins when Final Price is lower than Start Price
+- Equal prices produce a Draw
+
+| Outcome | Settlement for a 100 AE Bet |
+|---|---:|
+| Win | **190 AE final**; claim requires a wallet signature |
+| Loss | **100 AE loss** |
+| Draw | **100 AE refund** |
+| Server or price-data error | Cancel; **100% refund** |
+
+Loss and Draw use the immediate settlement behavior in the current implementation. Prediction does not use a separately pre-funded reward pool.
+
+<Steps>
+  <Step title="Review the round">Check BTC/USDT, the displayed price source, countdown, and start price.</Step>
+  <Step title="Choose a direction">Select UP or DOWN and enter 100-1,000 AE.</Step>
+  <Step title="Confirm entry">Approve the mission action before the round closes.</Step>
+  <Step title="Wait for settlement">Compare the final server price with the start price.</Step>
+  <Step title="Claim a win">Approve the claim signature when required, then check Game History.</Step>
+</Steps>
 
 <Note>
-Prediction does not require a separately pre-funded pool in this whitepaper. The PoA Rewards Pool funds Contributor Ranking distributions, not the Prediction win itself.
+The repository does not identify the currently implemented price-data provider. Use the source displayed in the product; do not assume Binance unless the interface confirms it.
 </Note>

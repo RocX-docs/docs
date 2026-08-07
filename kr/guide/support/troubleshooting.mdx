@@ -1,0 +1,41 @@
+---
+title: "문제 해결"
+description: "Wallet, DeFi, PoA, Explore, Profile의 일반 오류를 해결합니다."
+icon: "screwdriver-wrench"
+---
+
+해결되지 않으면 Connected Wallet, Network, Timestamp, Page, Status, Transaction Hash 또는 Game/Activity ID와 비밀정보가 없는 Screenshot을 준비합니다.
+
+| 문제 | 가능한 원인 | 해결 방법 |
+|---|---|---|
+| Wallet 미연결 | 잠금 또는 요청 차단 | Wallet을 Unlock하고 새로고침 후 계정을 확인해 재연결 |
+| Wrong Network | RocX와 Wallet Network 불일치 | RocX에 표시된 Network로만 전환 |
+| Transaction Rejected | 사용자 거절 또는 Simulation 실패 | 요청을 확인하고 원인을 수정한 뒤 한 번만 재시도 |
+| Insufficient Gas | Testnet Gas 부족 | 정확한 Network의 Testnet Gas Token 준비 |
+| Token Approval Failed | 자산/Network 오류 또는 Revert | Approval Transaction을 확인하고 중복 제출 금지 |
+| Deposit 미반영 | Pending, Failure, Index Delay | Hash 확인 후 확정되면 새로고침하고 지속 시 Support 문의 |
+| Borrow 불가 | 담보 부족, Cap 또는 위험 포지션 | 수량을 줄이고 Health Factor 확인 |
+| Health Factor 낮음 | 담보 대비 부채가 큼 | Repay, 담보 추가 또는 Withdraw/Borrow 감소 |
+| Swap Quote Expired | Market/Route 변경 | Quote를 갱신하고 다시 검토 |
+| Bridge 처리 중 | Destination Settlement 미완료 | Source/Route/Destination 상태 확인 후 재제출 금지 |
+| PoA Permission 비활성 | 50 USD, 24시간, Snapshot, 실시간 조건 미충족 | Eligible Amount와 자격 시작 시각 확인 |
+| 24시간 미완료 | 임계 도달 후 24시간 미경과 또는 중단 | 50 USD를 연속 유지하고 자격 갱신 대기 |
+| Real-time Check 실패 | 현재 50 USD 미만 | 예치 회복 후 새 24시간 시작 |
+| Social Account 미연결 | OAuth 미완료 또는 Platform 비활성 | My Page에서 Available Platform 재연결 |
+| Activity Author Mismatch | 작성자와 연결 계정 불일치 | 연결 계정이 만든 본인 원본 URL 사용 |
+| Activity 중복 | 동일 URL/External Content ID 존재 | 재등록하지 말고 My Activity 확인 |
+| Daily Link Limit | 당일 1개 등록 완료 | 다음 Service Day까지 대기 |
+| Helpful Limit | 당일 10회 완료 | 다음 Service Day까지 대기 |
+| Not Helpful Limit | 당일 10회 완료 | 다음 Service Day까지 대기 |
+| Already Evaluated | 이미 둘 중 하나 선택 | 두 번째 평가, 변경, 취소 불가 |
+| Self-evaluation 불가 | 자기 평가 차단 | 다른 Activity만 평가하고 관련 계정 우회 금지 |
+| Wallet Signature Rejected | 거절, 계정 변경, 요청 만료 | 계정과 목적 확인 후 새 요청 생성 |
+| Original Post Deleted | 원본 접근 불가 | Activity가 무효화되고 Ranking에서 제외될 수 있음 |
+| Explore Game Canceled | Room Timeout 또는 기술 실패 | Game History에서 Cancel/Refund 확인 |
+| Refund Pending | Ledger 처리 중 | Action을 반복하지 말고 Game ID/Timestamp 기록 |
+| Claim Signature Rejected | Wallet 불일치, 요청 만료 또는 거절 | Winning Wallet로 새 Claim 요청 |
+| NFT Image 미표시 | Metadata/Media 미지원 또는 접근 불가 | Contract, Token ID, Metadata URL, Wallet, Network 기록 |
+
+<Warning>
+Support에 Seed Phrase, Private Key, 전체 OAuth Token 또는 Recovery Code를 보내지 마세요.
+</Warning>

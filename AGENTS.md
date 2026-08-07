@@ -14,9 +14,9 @@
 
 ## About RocX
 
-- RocX는 **Survival Finance(생존 금융)** — Powered by **Proof of Activity(활동 증명)** 를 표방하는 Web3 금융 프로토콜입니다.
-- 본 문서는 RocX 백서를 Mintlify로 옮긴 것입니다. 원본: `국문백서 초안(0622).pdf` (초안 단계).
-- 현재 한국어 기본. 추후 영문(`/en`) 추가 예정.
+- RocX is a Proof of Activity-powered DeFi platform that combines onchain capital activity with verified user participation.
+- The site contains a bilingual Whitepaper and task-focused User Guide.
+- Current User Guide procedures describe the MVP/testnet environment unless an official status says otherwise.
 
 ## Terminology
 
@@ -24,16 +24,13 @@
 
 | 한국어 | English |
 | --- | --- |
-| 생존 금융 | Survival Finance |
 | 활동 증명 | Proof of Activity |
-| 활동 대출 / 액티브 렌딩 | Active Lending |
 | 액티브 에너지 (AE) | Active Energy (AE) |
+| 기여자 랭킹 | Contributor Ranking |
+| 도움이 됨 | Helpful |
+| 도움이 되지 않음 | Not Helpful |
 | 평판 (레이어) | Reputation (Layer) |
 | 신원 / 정체성 | Identity |
-| 영혼 결속 토큰 | SBT (Soulbound Token) |
-| 총 예치 자산 / 총 예치금 | TVL |
-
-- 핵심 슬로건: **예치 · 탐험 · 증명 · 생존**
 
 ## Style preferences
 
@@ -42,6 +39,8 @@
 - 강조는 **bold**, 정의/슬로건은 `<Note>`, 경고/면책은 `<Warning>`.
 - 흐름(플라이휠/체인)은 `mermaid`, 단계는 `<Steps>`, 비교는 표로 시각화한다.
 - 헤딩은 간결하게, 페이지마다 frontmatter(title/description/icon) 작성.
+- User Guide는 What / How / Requirement / Result / Error 중심으로 작성하고 Whitepaper 철학 문체와 분리한다.
+- 폐기된 참여·보상 용어, 고정 AE-ROCX 전환, 감사 완료 또는 확인되지 않은 Mainnet/Provider/Network를 현재 기능처럼 문서화하지 않는다.
 
 ## Content boundaries
 

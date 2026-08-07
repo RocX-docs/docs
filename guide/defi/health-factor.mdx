@@ -1,0 +1,26 @@
+---
+title: "Health Factor & Liquidation Risk"
+description: "Understand the safety indicator for collateral and debt."
+icon: "heart-pulse"
+---
+
+Health Factor is a safety indicator based on the relationship between collateral and debt. A higher value generally means more room before liquidation; a lower value means greater risk.
+
+## What can lower Health Factor
+
+- Collateral value falls.
+- Debt or accrued interest increases.
+- You borrow more.
+- You withdraw collateral.
+
+## Reduce risk
+
+Repay debt, add eligible collateral, or reduce a planned Borrow or Withdraw amount. Review the projected Health Factor before signing and monitor it after confirmation.
+
+<Warning>
+A position can be liquidated when it crosses the threshold configured by the current contracts. The exact liquidation threshold, LTV, caps, and interest parameters are not documented because this repository does not contain the active contract configuration. Do not substitute values from another protocol.
+</Warning>
+
+## Common issues
+
+If Borrow or Withdraw is unavailable, the requested action may leave insufficient collateral or an unsafe Health Factor. Lower the amount, repay debt, or add collateral and try again.

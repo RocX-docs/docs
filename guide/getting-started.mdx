@@ -1,12 +1,35 @@
 ---
-title: "Getting Started"
+title: "Connect Wallet"
+description: "Connect a supported wallet to the RocX MVP safely."
 icon: "wallet"
 ---
 
-## Getting Started
+A connected wallet identifies your RocX session and is required for onchain transactions and signed PoA or Explore actions.
 
-This guide shows you how to connect your wallet and get started when you first use RocX.
+## Before you start
 
-<Note>
-Detailed steps are on the way. This page will be updated soon.
-</Note>
+- Install a wallet supported by the current RocX interface.
+- Select only a testnet network shown in RocX.
+- Keep testnet gas tokens available.
+
+## Connect
+
+<Steps>
+  <Step title="Open RocX">Use the official RocX URL distributed through official channels.</Step>
+  <Step title="Select Connect Wallet">Choose a wallet shown in the connection dialog.</Step>
+  <Step title="Approve the connection">Check the domain and account in the wallet, then approve the connection request.</Step>
+  <Step title="Confirm the network">If prompted, switch to the network shown by RocX. Do not add an unverified RPC manually.</Step>
+  <Step title="Check the connected account">Confirm that the shortened wallet address in RocX matches the account you selected.</Step>
+</Steps>
+
+## Signatures and transactions
+
+A connection request does not move assets. Transactions can change onchain balances, while message signatures authorize specific offchain actions such as Attendance, activity registration, evaluation, or a claim. Read every request before approving it.
+
+## Common issues
+
+If the wallet dialog does not open, unlock the extension and refresh the page. If RocX shows the wrong network or account, switch inside the wallet and reconnect. See [Troubleshooting](./support/troubleshooting) if the problem continues.
+
+<Warning>
+RocX support will never ask for your seed phrase or private key.
+</Warning>

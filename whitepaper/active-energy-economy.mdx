@@ -4,7 +4,7 @@ description: "AE sources, uses, reserve accounts, Explore settlement, and PoA co
 icon: "chart-line"
 ---
 
-Active Energy, or AE, is a non-transferable offchain point recorded in the RocX ledger. It has no fixed cash value, cannot be immediately converted to a token, and has no fixed conversion rate to ROCX.
+Active Energy, or AE, is a non-transferable offchain participation unit recorded in the RocX ledger. It has no fixed cash value, cannot be immediately converted to a token, and has no fixed conversion rate to ROCX.
 
 ## AE sources
 
@@ -27,36 +27,16 @@ AE can be used for Explore mission participation and other approved ecosystem us
 
 | Reserve | Purpose | Initial source described here |
 |---|---|---|
-| **Active Energy Reserve Pool** | Common ecosystem AE reserve for approved settlement, inactivity deductions, and other approved reserve accounting | 5% of normally settled winning Explore result AE, plus other approved entries |
+| **Active Energy Reserve Pool** | Common ecosystem AE reserve for approved settlement and other approved reserve accounting | 5% of an applicable normally settled Explore winning result when the mission rule includes the shared allocation, plus other approved entries |
 | **PoA Rewards Pool** | AE reserve dedicated to PoA Contributor Ranking distributions | 5% of normally settled winning Explore result AE |
 
-The Active Energy Reserve Pool may appear as **Total AE Reserve Pool** in user-facing interfaces. The PoA Rewards Pool is a separate offchain ledger account. Neither reserve is a token treasury, cash fund, or onchain asset pool.
+The Active Energy Reserve Pool may appear as **Total AE Pool**, **Total Reserve Pool**, or **AE Reserve Pool** in user-facing interfaces. The PoA Rewards Pool is a separate offchain ledger account. Neither reserve is a token treasury, cash fund, or onchain asset pool.
 
 ## Explore settlement
 
-For a normally settled winning result in Roulette, Card Flip, Prediction, or another approved Explore mission:
-
-| Gross result | User | Active Energy Reserve Pool | PoA Rewards Pool |
-|---:|---:|---:|---:|
-| 100 AE | 90 AE | 5 AE | 5 AE |
-| 100% | 90% | 5% | 5% |
-
-```text
-Explore Mission
-→ Successful AE Settlement
-→ 90% User
-→ 5% Active Energy Reserve Pool
-→ 5% PoA Rewards Pool
-→ Contributor Ranking Rewards
-```
-
-This split applies only to normally settled winning results. Cancellation, refund, draw, or failed-settlement treatment follows the applicable mission specification.
+Each Explore mission retains its own payout math. When that mission's approved normally settled winning result includes a shared 10% allocation, it is divided into 5% for the Active Energy Reserve Pool and 5% for the PoA Rewards Pool. Cancellation, refund, draw, loss, and failed-settlement treatment follows the applicable mission specification.
 
 Prediction and Card Flip are not described as using separately pre-funded pools. The PoA Rewards Pool does not fund game wins; it funds the PoA Contributor Ranking.
-
-## Inactivity
-
-Existing approved inactivity deductions may continue to be recorded under the Active Energy Reserve Pool. This whitepaper does not redirect inactivity deductions to the PoA Rewards Pool or invent a new inactivity formula.
 
 ## PoA distribution
 

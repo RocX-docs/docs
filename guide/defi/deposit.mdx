@@ -1,12 +1,35 @@
 ---
-title: "Deposit"
+title: "Deposit / Supply"
+description: "Deposit a supported testnet asset in DeFi Planet."
 icon: "vault"
 ---
 
-## Deposit
+The current documentation uses **Deposit**, the existing RocX page name. In DeFi terms, this supplies an asset to the displayed protocol flow.
 
-This guide shows you how to deposit assets in RocX DeFi Planet.
+## Before you start
+
+- Connect your wallet and select the network shown by RocX.
+- Hold a supported testnet asset and enough gas.
+- Review whether the asset is eligible for collateral, Deposit AE, or PoA eligibility; these are separate checks.
+
+## Deposit an asset
+
+<Steps>
+  <Step title="Open Deposit">In DeFi Planet, open **Deposit** and select an available asset.</Step>
+  <Step title="Enter the amount">Do not exceed the wallet balance shown by the interface.</Step>
+  <Step title="Approve when required">For an ERC-20 asset, confirm the token approval before the Deposit transaction. Check the approved token and spending scope.</Step>
+  <Step title="Confirm Deposit">Review the asset, amount, network, and transaction details, then confirm in your wallet.</Step>
+  <Step title="Wait for confirmation">Keep the page open while the transaction is pending. Do not submit the same transaction repeatedly.</Step>
+</Steps>
+
+## What happens next
+
+After confirmation, the Portfolio or supplied balance should update. Deposit AE and PoA eligibility do not necessarily update at the same moment as the onchain balance.
 
 <Note>
-Detailed steps are on the way. This page will be updated soon.
+PoA registration and evaluation require at least USD 50 in eligible RocX DeFi deposits maintained continuously for 24 hours. Deposit AE uses a separate daily snapshot at 08:59:59 KST. See [PoA Eligibility](../poa/eligibility) and [Deposit AE](../active-energy/deposit-ae).
 </Note>
+
+## Common issues
+
+A deposit can fail because of the wrong network, insufficient gas, an expired wallet request, insufficient balance, or a failed token approval. Check the transaction hash before retrying.

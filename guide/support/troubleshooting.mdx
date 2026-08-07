@@ -1,0 +1,41 @@
+---
+title: "Troubleshooting"
+description: "Resolve common wallet, DeFi, PoA, Explore, and profile issues."
+icon: "screwdriver-wrench"
+---
+
+For any unresolved issue, keep the connected wallet, network, timestamp, page, displayed status, transaction hash or game/Activity identifier, and a screenshot without secrets.
+
+| Issue | Likely cause | What to do |
+|---|---|---|
+| Wallet not connected | Wallet locked or request blocked | Unlock the wallet, refresh, reconnect, and verify the account |
+| Wrong network | Wallet and RocX differ | Switch only to the network shown by RocX |
+| Transaction rejected | User rejected or wallet simulation failed | Read the request, correct the cause, and retry once |
+| Insufficient gas | Not enough testnet gas | Obtain the correct network's testnet gas token |
+| Token approval failed | Wrong asset/network or approval reverted | Check the approval transaction and avoid duplicate submissions |
+| Deposit not reflected | Transaction pending, failed, or index delayed | Check the hash, refresh after confirmation, then contact support |
+| Borrow unavailable | Insufficient collateral, cap, or unsafe position | Lower the amount and review Health Factor |
+| Health Factor too low | Debt is high relative to collateral | Repay, add collateral, or reduce Withdraw/Borrow |
+| Swap quote expired | Market or route changed | Refresh and review the new quote |
+| Bridge still processing | Destination settlement is not complete | Check source status, route status, destination network, and avoid resubmitting |
+| PoA permission inactive | USD 50, 24-hour, snapshot, or real-time check not satisfied | Review eligible deposit amount and qualification start time |
+| 24-hour qualification incomplete | Threshold was reached less than 24 hours ago or interrupted | Maintain USD 50 continuously and wait for the next eligibility update |
+| Real-time deposit check failed | Eligible amount is currently below USD 50 | Restore eligibility; a new 24-hour period begins |
+| Social account not connected | OAuth incomplete or platform unavailable | Reconnect a platform marked available in My Page |
+| Activity author mismatch | Submitted author differs from connected account | Use your own original URL from the connected account |
+| Activity already registered | Same URL or external content ID exists | Do not submit a duplicate; review My Activity |
+| Daily link limit reached | One link already registered that day | Wait for the next service day |
+| Helpful daily limit reached | Ten Helpful actions completed | Wait for the next service day |
+| Not Helpful daily limit reached | Ten Not Helpful actions completed | Wait for the next service day |
+| Already evaluated | You already chose Helpful or Not Helpful | No second, changed, or canceled evaluation is allowed |
+| Cannot evaluate own Activity | Self-evaluation blocked | Ask no related account to bypass the rule; evaluate other content |
+| Wallet signature rejected | User rejected, account changed, or request expired | Verify account and purpose, then initiate a fresh request |
+| Original post deleted | Source is unavailable | The Activity can be invalidated and excluded from ranking |
+| Explore game canceled | Room timeout or technical result failure | Check Game History for cancellation and refund status |
+| Refund pending | Ledger update still processing | Do not replay the action; record game ID and timestamp |
+| Claim signature rejected | Wrong wallet, expired request, or user rejection | Use the winning wallet and initiate a fresh claim request |
+| NFT image not loading | Unsupported or unavailable metadata/media | Record contract, token ID, metadata URL, wallet, and network |
+
+<Warning>
+Never send a seed phrase, private key, full OAuth token, or secret recovery code in a support request.
+</Warning>
