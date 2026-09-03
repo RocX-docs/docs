@@ -26,6 +26,23 @@
     "languages": [
       {
         "language": "ko",
+        "footer": {
+          "links": [
+            {
+              "header": "법적 고지",
+              "items": [
+                {
+                  "label": "이용약관",
+                  "href": "/kr/legal/terms-of-service"
+                },
+                {
+                  "label": "개인정보처리방침",
+                  "href": "/kr/legal/privacy-policy"
+                }
+              ]
+            }
+          ]
+        },
         "tabs": [
           {
             "tab": "\ubc31\uc11c",
@@ -104,7 +121,9 @@
                 "group": "\ubc95\uc801 \uace0\uc9c0",
                 "icon": "file-text",
                 "pages": [
-                  "kr/whitepaper/disclaimer"
+                  "kr/whitepaper/disclaimer",
+                  "kr/legal/terms-of-service",
+                  "kr/legal/privacy-policy"
                 ]
               }
             ]
@@ -201,6 +220,23 @@
       {
         "language": "en",
         "default": true,
+        "footer": {
+          "links": [
+            {
+              "header": "Legal",
+              "items": [
+                {
+                  "label": "Terms of Service",
+                  "href": "/legal/terms-of-service"
+                },
+                {
+                  "label": "Privacy Policy",
+                  "href": "/legal/privacy-policy"
+                }
+              ]
+            }
+          ]
+        },
         "tabs": [
           {
             "tab": "Whitepaper",
@@ -279,7 +315,9 @@
                 "group": "Legal",
                 "icon": "file-text",
                 "pages": [
-                  "whitepaper/disclaimer"
+                  "whitepaper/disclaimer",
+                  "legal/terms-of-service",
+                  "legal/privacy-policy"
                 ]
               }
             ]
