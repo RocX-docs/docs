@@ -4,6 +4,8 @@ description: "How RocX handles personal information when users access and use it
 icon: "shield-halved"
 ---
 
+Last updated: September 7, 2026
+
 This Privacy Policy explains how RocX handles personal information when you use its websites and services.
 
 ## 1. Information processed
@@ -27,13 +29,92 @@ External wallets, platforms, and protocols have their own privacy practices. Roc
 
 Wallet addresses and public blockchain activity may identify a person when combined with other information. RocX cannot remove public blockchain records or delete content and information independently controlled by external services.
 
-## 4. Retention and security
+## 4. Google and YouTube API data
+
+This section governs Google user data, including YouTube API data, and takes precedence over other general provisions in this Privacy Policy where they differ.
+
+### 4.1 Services used
+
+RocX uses Google OAuth 2.0 and YouTube API Services. Connecting a YouTube account is optional and works only after your explicit authorization. See the [Google Privacy Policy](https://policies.google.com/privacy) and the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy).
+
+RocX's use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
+
+### 4.2 Google user data accessed
+
+To provide the authorized connection and verification features, RocX may access or process:
+
+* your Google account identifier;
+* your email address, display name, and profile image only if the corresponding OAuth permissions are actually requested and authorized;
+* your YouTube channel ID, channel name, and other basic channel information;
+* public metadata for a YouTube URL you submit, such as the video ID, title, channel ID, thumbnail, URL, and publication information;
+* OAuth access and refresh tokens only where technically required to maintain the authorized connection; and
+* account-linking status and the result of matching your connected channel with the channel that published the submitted video.
+
+Access to YouTube content is read-only and limited to verifying videos you submit. RocX does not collect your Google password or YouTube login credentials. OAuth tokens authorize the connection without giving RocX your password.
+
+### 4.3 How Google user data is used
+
+RocX uses Google user data only to:
+
+* connect your YouTube account to RocX and identify the connected channel;
+* verify that a public YouTube video you submit was published by that channel;
+* record the verification outcome for your Proof of Activity (PoA) submission;
+* prevent impersonation, duplicate submissions, fraud, and abuse; and
+* maintain security and respond to your support requests about these features.
+
+A submitted YouTube URL can be registered as your PoA activity only if its publishing channel matches your connected channel. A match does not guarantee any reward.
+
+RocX does not use Google user data for advertising or retargeting, selling user data, providing data to data brokers or information resellers, determining creditworthiness, lending decisions, training generalized AI or machine-learning models, or unrelated analytics or profiling.
+
+RocX does not upload, publish, modify, or delete YouTube videos or other YouTube content on your behalf. It does not like, comment, subscribe, or perform other YouTube write operations.
+
+### 4.4 Sharing, transfer, and disclosure
+
+RocX does not sell Google user data. Google user data sharing, transfer, and disclosure to third parties are limited to:
+
+* hosting, database, infrastructure, security, and support service providers processing data under RocX's instructions only as necessary to operate the features you authorize and with your consent;
+* investigating security incidents, fraud, or service abuse;
+* complying with applicable law, a court order, or a lawful government request; or
+* a merger, acquisition, or transfer of assets, subject to applicable law, required notice, and your explicit prior consent.
+
+Service providers are bound by contractual confidentiality and security obligations. They may not use Google user data for their own advertising or independent purposes. These exceptions remain subject to the Limited Use requirements.
+
+### 4.5 Retention and deletion
+
+OAuth access and refresh tokens are retained only while your YouTube account is connected to RocX. When you disconnect it, RocX immediately revokes token access and deletes tokens from active systems without delay.
+
+Google account and YouTube channel identifiers and related data obtained through OAuth are retained only as necessary to maintain the connection and verify PoA submissions. When you disconnect YouTube, delete your RocX account, or request deletion, RocX deletes or de-identifies related Google user data in active systems within 30 days, subject to the shorter YouTube deletion deadlines below.
+
+For YouTube API data, RocX deletes data covered by a disconnection, account deletion, or deletion request as soon as possible and within 7 calendar days. If you revoke access through Google Account permissions, RocX deletes the affected API data as soon as possible and within 30 calendar days of revocation. RocX periodically checks authorization validity and deletes affected data when authorization can no longer be refreshed. Stored YouTube channel and video metadata is refreshed or deleted within 30 calendar days.
+
+Limited backup copies may remain for up to 90 days under the disaster recovery cycle before deletion or overwriting. This backup period does not extend the shorter YouTube API deletion deadlines; affected YouTube API data must be deleted within those deadlines, including from backups.
+
+Where fraud prevention, a security investigation, or a legal obligation requires longer retention, RocX restricts retention to the minimum necessary information and deletes it when that purpose ends. This exception applies only to the extent permitted by applicable law and Google and YouTube policies.
+
+Public URLs you submit directly and public blockchain records are distinct from data obtained through Google OAuth. This distinction does not exempt API-derived metadata from the deletion rules above. RocX cannot delete immutable onchain records, but removes the Google account association and internal RocX identifiers where possible. Deletion by RocX does not delete content or data held by YouTube; you must use YouTube's own controls for that purpose.
+
+### 4.6 User controls and revocation
+
+You may revoke access or request deletion by:
+
+* disconnecting your YouTube account in RocX;
+* revoking RocX access on the [Google Account permissions page](https://myaccount.google.com/permissions);
+* deleting your RocX account; or
+* sending a Google or YouTube data deletion request to **[rocx@rocx.io](mailto:rocx@rocx.io)**.
+
+Revoking Google permissions alone may not automatically delete all data already stored by RocX at that moment. To request deletion of stored data directly, disconnect YouTube in RocX, delete your RocX account, or email us. The deletion deadlines above still apply to data covered by Google's revocation, without requiring a separate request.
+
+### 4.7 Security
+
+RocX uses reasonable technical and administrative safeguards for Google user data, including encryption in transit, restricted access controls, authorization and credential safeguards, logging, and security monitoring. Access is limited to personnel and processors who need it to operate or secure the service. Human access to Google user data is limited to the circumstances permitted by the Limited Use requirements, including your affirmative agreement to review specific data for support, security needs, or legal obligations. No online service can guarantee absolute security.
+
+## 5. Retention and security
 
 RocX retains personal information for as long as necessary to provide services, address security issues or disputes, and meet legal obligations. Information is deleted or de-identified when it is no longer needed.
 
 RocX applies reasonable administrative and technical safeguards to protect personal information. No online service can guarantee absolute security.
 
-## 5. Your choices and rights
+## 6. Your choices and rights
 
 You may disconnect accounts through available RocX, wallet, or provider controls. Revoking a provider’s authorization may require a separate step. Disconnection does not automatically delete previously collected information.
 
@@ -41,7 +122,7 @@ Depending on applicable law, you may request access, correction, deletion, a cop
 
 Send requests to **[rocx@rocx.io](mailto:rocx@rocx.io)**. RocX may verify your control of the relevant account without requesting a private key or seed phrase and will handle requests within applicable legal time limits.
 
-## 6. Changes and contact
+## 7. Changes and contact
 
 Updates to this Privacy Policy will be posted on this page. RocX will provide additional notice or obtain consent where required by law.
 
