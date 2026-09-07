@@ -37,7 +37,7 @@ This section governs Google user data, including YouTube API data, and takes pre
 
 RocX uses Google OAuth 2.0 and YouTube API Services. Connecting a YouTube account is optional and works only after your explicit authorization. See the [Google Privacy Policy](https://policies.google.com/privacy) and the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy).
 
-RocX's use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
+RocX's use and transfer to any other app of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements.
 
 ### 4.2 Google user data accessed
 
@@ -62,7 +62,7 @@ RocX uses Google user data only to:
 * prevent impersonation, duplicate submissions, fraud, and abuse; and
 * maintain security and respond to your support requests about these features.
 
-A submitted YouTube URL can be registered as your PoA activity only if its publishing channel matches your connected channel. A match does not guarantee any reward.
+A submitted YouTube URL can be registered as your PoA activity only if its publishing channel matches your connected channel. This prevents users from claiming other creators' content as their own. A match does not guarantee any reward.
 
 RocX does not use Google user data for advertising or retargeting, selling user data, providing data to data brokers or information resellers, determining creditworthiness, lending decisions, training generalized AI or machine-learning models, or unrelated analytics or profiling.
 
@@ -81,6 +81,8 @@ Service providers are bound by contractual confidentiality and security obligati
 
 ### 4.5 Retention and deletion
 
+RocX does not store the video contents.
+
 OAuth access and refresh tokens are retained only while your YouTube account is connected to RocX. When you disconnect it, RocX immediately revokes token access and deletes tokens from active systems without delay.
 
 Google account and YouTube channel identifiers and related data obtained through OAuth are retained only as necessary to maintain the connection and verify PoA submissions. When you disconnect YouTube, delete your RocX account, or request deletion, RocX deletes or de-identifies related Google user data in active systems within 30 days, subject to the shorter YouTube deletion deadlines below.
@@ -97,7 +99,7 @@ Public URLs you submit directly and public blockchain records are distinct from 
 
 You may revoke access or request deletion by:
 
-* disconnecting your YouTube account in RocX;
+* clicking "Disconnect" in RocX My Page settings to disconnect your YouTube account;
 * revoking RocX access on the [Google Account permissions page](https://myaccount.google.com/permissions);
 * deleting your RocX account; or
 * sending a Google or YouTube data deletion request to **[rocx@rocx.io](mailto:rocx@rocx.io)**.
