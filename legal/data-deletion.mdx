@@ -1,0 +1,61 @@
+---
+title: "Social Account Data Deletion"
+description: "How to disconnect social accounts and request deletion of related RocX data."
+icon: "trash-can"
+---
+
+Last updated: September 8, 2026
+
+This page explains how to disconnect a third-party social account from RocX and request deletion of personal data associated with that connection. It applies to available integrations and does not announce support for every platform named here. You can read these instructions and send an email request without signing in.
+
+## Disconnecting a social account
+
+In RocX My Page, select Disconnect next to an available connected platform. Disconnection stops new API requests through the stored authorization, removes stored OAuth tokens from active systems without undue delay, and prevents new PoA submissions from being verified through that connection until you reconnect.
+
+Disconnection does not necessarily delete a public URL you submitted directly or a de-identified record needed to prevent duplicates, fraud, or settlement inconsistencies. Provider-specific deletion rules in the [Privacy Policy](/legal/privacy-policy) take precedence, including YouTube's deletion rules following disconnection.
+
+## Requesting deletion
+
+You may request deletion by deleting your RocX account through available settings, using an available provider data deletion mechanism, or emailing **[rocx@rocx.io](mailto:rocx@rocx.io)**.
+
+You may also revoke authorization through the provider's account, authorization, Accounts Center, or Apps and Websites settings. Revocation may not request deletion of every existing record. Email RocX to request deletion directly; provider-triggered deletion obligations still apply without a second request.
+
+Include only the minimum information needed to identify the connection, such as your RocX account or wallet address, the platform, and its public username. Do not send passwords, OAuth access or refresh tokens, app secrets, private keys, seed or recovery phrases, or authentication codes.
+
+RocX may reasonably verify your control of the relevant account before processing a request, but will never require a private key or seed phrase. These are deletion instructions, not an automated callback or a deletion-status tracking service.
+
+## Data covered by a deletion request
+
+Depending on the integration, a valid request may cover:
+
+* stored OAuth access and refresh tokens;
+* platform-specific user or account identifiers;
+* API-derived usernames, display names, and profile images;
+* linked-account and authorization status;
+* matched post or media metadata obtained through an API;
+* verification results associated with the connection; and
+* other personal data RocX is not legally required or otherwise permitted to retain.
+
+## Deletion timeframes
+
+RocX stops new API access and deletes stored OAuth tokens from active systems without undue delay after a valid disconnection or deletion event. Other covered data is deleted or de-identified as soon as reasonably possible and within 30 days of a valid deletion request. Where platform rules require deletion, de-identification is not a substitute.
+
+For YouTube API data, disconnection through RocX, account deletion, or a deletion request triggers deletion as soon as possible and within 7 calendar days. Revocation through Google Account permissions triggers deletion of affected API data as soon as possible and within 30 calendar days of revocation. See [Google and YouTube API data](/legal/privacy-policy#4-google-and-youtube-api-data).
+
+Restricted backups may remain for up to 90 days before deletion or overwriting and are not restored for ordinary business use. This period does not extend shorter YouTube API deletion deadlines, including for affected backup data.
+
+Where law or an active security, fraud, abuse, or dispute investigation requires retention, RocX keeps only the minimum necessary information and deletes or de-identifies it when the purpose ends, subject to applicable provider rules. See [Meta Platform Data](/legal/privacy-policy#5-meta-platform-data-facebook-instagram-and-threads) for Meta-specific controls.
+
+## Public links and blockchain records
+
+A submitted public URL is distinct from an OAuth token or non-public API data. Where needed for settlement integrity, duplicate or fraud prevention, or legal compliance, RocX may retain a de-identified record that can no longer reasonably be associated with the deleted external account. API-derived metadata remains subject to provider deletion requirements.
+
+RocX cannot delete or modify immutable public blockchain records. Where technically possible, RocX removes internal associations between deleted social-account data and those records. RocX does not place OAuth tokens, social-media passwords, or non-public platform data on a public blockchain.
+
+## Content held by external platforms
+
+Deleting RocX data does not delete original posts, profiles, videos, images, or other content held by Facebook, Instagram, Threads, YouTube, X, TikTok, Reddit, or another platform. Use that platform's own account and content controls to delete original content.
+
+## Contact
+
+For questions or deletion requests, contact **[rocx@rocx.io](mailto:rocx@rocx.io)**. See the [Privacy Policy](/legal/privacy-policy) and [Terms of Service](/legal/terms-of-service).

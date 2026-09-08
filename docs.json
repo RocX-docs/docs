@@ -38,6 +38,10 @@
                 {
                   "label": "개인정보처리방침",
                   "href": "/kr/legal/privacy-policy"
+                },
+                {
+                  "label": "소셜 계정 데이터 삭제",
+                  "href": "/kr/legal/data-deletion"
                 }
               ]
             }
@@ -123,7 +127,8 @@
                 "pages": [
                   "kr/whitepaper/disclaimer",
                   "kr/legal/terms-of-service",
-                  "kr/legal/privacy-policy"
+                  "kr/legal/privacy-policy",
+                  "kr/legal/data-deletion"
                 ]
               }
             ]
@@ -232,6 +237,10 @@
                 {
                   "label": "Privacy Policy",
                   "href": "/legal/privacy-policy"
+                },
+                {
+                  "label": "Social Account Data Deletion",
+                  "href": "/legal/data-deletion"
                 }
               ]
             }
@@ -317,7 +326,8 @@
                 "pages": [
                   "whitepaper/disclaimer",
                   "legal/terms-of-service",
-                  "legal/privacy-policy"
+                  "legal/privacy-policy",
+                  "legal/data-deletion"
                 ]
               }
             ]

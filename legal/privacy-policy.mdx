@@ -4,7 +4,7 @@ description: "How RocX handles personal information when users access and use it
 icon: "shield-halved"
 ---
 
-Last updated: September 7, 2026
+Last updated: September 8, 2026
 
 This Privacy Policy explains how RocX handles personal information when you use its websites and services.
 
@@ -110,21 +110,103 @@ Revoking Google permissions alone may not automatically delete all data already 
 
 RocX uses reasonable technical and administrative safeguards for Google user data, including encryption in transit, restricted access controls, authorization and credential safeguards, logging, and security monitoring. Access is limited to personnel and processors who need it to operate or secure the service. Human access to Google user data is limited to the circumstances permitted by the Limited Use requirements, including your affirmative agreement to review specific data for support, security needs, or legal obligations. No online service can guarantee absolute security.
 
-## 5. Retention and security
+## 5. Meta Platform Data (Facebook, Instagram and Threads)
+
+This section applies when a relevant Meta integration is available and you choose to connect it to RocX. It governs data obtained through Meta APIs and takes precedence over conflicting general provisions of this Privacy Policy. It describes the operating requirements for these integrations, not a claim that they are all currently available or approved.
+
+### 5.1 Services and authorization
+
+For an available integration, RocX uses Meta's authorization services and official APIs to connect a supported Facebook account or Page, Instagram account, or Threads account for Proof of Activity (PoA) verification. Each platform has separate APIs, permissions, supported account types, and review requirements.
+
+Permissions differ by platform and account type and are displayed during authorization. RocX requests only the minimum permissions necessary to identify the connected account and verify content submitted by the user. Instagram requires a supported professional account, such as a Business or Creator account, where required by the applicable API. Facebook account or Page support depends on the available API and approved scope; this does not imply access to every personal profile, Page, or public URL.
+
+RocX does not request permission to publish, edit, delete, like, comment on, send messages, follow accounts, or perform other social actions through these integrations, and does not manage advertising on your behalf. Threads verification is designed for minimum read access and does not request `threads_content_publish`.
+
+### 5.2 Meta Platform Data accessed
+
+Depending on the integration and permissions you authorize, RocX may process:
+
+* your platform-specific user or account ID;
+* your username, display name, and profile image where provided by the applicable API;
+* OAuth access tokens, token expiration information, and connection status;
+* metadata associated with posts or media owned by the connected account, such as the post or media ID, permalink, author or account ID, publication time, media type, caption, title, thumbnail, and public status where made available by the API; and
+* the result of matching the connected account with the author of a PoA submission, together with limited fraud-prevention and verification records.
+
+Where an API does not support direct lookup of a submitted public URL, RocX may temporarily process a limited list of posts or media belonging to the connected account solely to locate and verify that content. RocX does not intentionally retain unrelated post metadata after verification. This does not authorize collection of arbitrary posts from unconnected accounts.
+
+RocX does not collect your Facebook, Instagram, or Threads password or access private messages, contacts, advertising data, or unrelated private content through these integrations.
+
+### 5.3 Purpose of processing
+
+RocX uses Meta Platform Data only to:
+
+* connect and identify the account authorized by the user;
+* verify that a submitted public post was published by the connected account;
+* prevent impersonation, duplicate submissions, fraud, and abuse;
+* record and administer the corresponding PoA verification result; and
+* provide security, troubleshooting, and user support for the integration.
+
+RocX does not use Meta Platform Data for advertising, retargeting, data brokerage, credit or lending decisions, or training generalized artificial intelligence or machine-learning models.
+
+### 5.4 Public display and blockchain data
+
+Public PoA features may display the submitted public URL, authorized public account name, limited public metadata, and verification result on RocX profiles, activity boards, rankings, or related interfaces.
+
+RocX does not publicly display OAuth access or refresh tokens, app secrets, internal credentials, non-public Meta Platform Data, unnecessary Meta user IDs, or raw security and abuse-detection data. RocX does not write tokens, private account information, or non-public Meta Platform Data to a public blockchain.
+
+Any future onchain attestation would be limited to minimized proofs, status, or hashes, subject to privacy review; this is not a claim that such a feature is implemented. A hash is not automatically anonymous. RocX cannot delete immutable public blockchain records, but removes internal links to deleted account data where technically possible.
+
+### 5.5 Sharing and disclosure
+
+RocX does not sell or license Meta Platform Data or provide it to data brokers. In addition to the limited public display described above, RocX may disclose the minimum necessary Meta Platform Data to:
+
+* hosting, database, infrastructure, security, and support service providers processing data solely under RocX's instructions and written confidentiality and data-protection obligations;
+* competent authorities where required by applicable law, a valid court order, or another lawful request; or
+* security and fraud-prevention personnel where reasonably necessary to investigate abuse or protect RocX and its users.
+
+Service providers may not use Meta Platform Data for their own advertising, profiling, independent commercial purposes, or generalized AI or machine-learning model training.
+
+### 5.6 Retention and deletion
+
+OAuth tokens are retained only while the relevant Meta account remains connected. When you disconnect, RocX stops further API access and deletes stored tokens from active systems without undue delay.
+
+Meta account identifiers, matched post metadata, and other Meta Platform Data are retained only as necessary for the authorized connection, PoA verification, fraud prevention, or applicable legal obligations.
+
+When you delete your RocX account, submit a valid deletion request, or initiate deletion through an available Meta data deletion mechanism, RocX deletes or de-identifies applicable Meta Platform Data from active systems as soon as reasonably possible and within 30 days. Restricted backup copies may remain for up to 90 days before deletion or overwriting and may not be restored for ordinary business use. Where applicable platform rules require deletion, de-identification is not used as a substitute for deletion.
+
+Disconnecting stops future API access but does not by itself remove a public URL submitted directly or a de-identified record necessary for settlement integrity or duplicate and fraud prevention. You may separately request deletion of associated personal data. These records are distinct from OAuth data; this distinction does not exempt API-derived metadata from applicable deletion requirements.
+
+Where law or an active security or fraud investigation requires retention, RocX keeps only the minimum necessary information and deletes or de-identifies it when that purpose ends, subject to applicable platform requirements. These Meta timeframes do not extend the separate Google and YouTube deletion deadlines above.
+
+### 5.7 User controls and deletion requests
+
+You may disconnect or request deletion by:
+
+* selecting Disconnect in RocX My Page;
+* removing RocX through the applicable Meta account, Accounts Center, or Apps and Websites settings;
+* deleting your RocX account;
+* using an available Meta-provided data deletion request mechanism; or
+* sending a deletion request to **[rocx@rocx.io](mailto:rocx@rocx.io)**.
+
+Removing authorization stops future access; it is not necessarily a request to delete every existing record. Use the [Social Account Data Deletion instructions](/legal/data-deletion) to request deletion directly. Provider-specific deletion events remain subject to the deadlines above without requiring a second request.
+
+Deleting RocX data does not delete original content held by Facebook, Instagram, or Threads. Use the applicable Meta service controls to delete that content.
+
+## 6. Retention and security
 
 RocX retains personal information for as long as necessary to provide services, address security issues or disputes, and meet legal obligations. Information is deleted or de-identified when it is no longer needed.
 
 RocX applies reasonable administrative and technical safeguards to protect personal information. No online service can guarantee absolute security.
 
-## 6. Your choices and rights
+## 7. Your choices and rights
 
-You may disconnect accounts through available RocX, wallet, or provider controls. Revoking a provider’s authorization may require a separate step. Disconnection does not automatically delete previously collected information.
+You may disconnect accounts through available RocX, wallet, or provider controls. Revoking a provider’s authorization may require a separate step. Disconnection stops future access but may not delete all existing records. Provider-specific deletion rules above take precedence. You may separately request deletion using the [Social Account Data Deletion instructions](/legal/data-deletion).
 
 Depending on applicable law, you may request access, correction, deletion, a copy of your information, or restrictions on its use. You may also have rights to object to processing, withdraw consent, or complain to a relevant authority.
 
 Send requests to **[rocx@rocx.io](mailto:rocx@rocx.io)**. RocX may verify your control of the relevant account without requesting a private key or seed phrase and will handle requests within applicable legal time limits.
 
-## 7. Changes and contact
+## 8. Changes and contact
 
 Updates to this Privacy Policy will be posted on this page. RocX will provide additional notice or obtain consent where required by law.
 
