@@ -4,7 +4,7 @@ description: "How RocX handles personal information when users access and use it
 icon: "shield-halved"
 ---
 
-Last updated: September 8, 2026
+Last updated: September 10, 2026
 
 This Privacy Policy explains how RocX handles personal information when you use its websites and services.
 
@@ -192,13 +192,92 @@ Removing authorization stops future access; it is not necessarily a request to d
 
 Deleting RocX data does not delete original content held by Facebook, Instagram, or Threads. Use the applicable Meta service controls to delete that content.
 
-## 6. Retention and security
+## 6. TikTok Data
+
+This section applies when the TikTok integration is available and you choose to connect it. It governs TikTok data and takes precedence over conflicting general provisions of this Privacy Policy. RocX is not an official partner, agent, or representative of TikTok and does not claim TikTok's approval, endorsement, or sponsorship.
+
+### 6.1 Services and authorization
+
+RocX uses TikTok Login Kit and the TikTok Display API for read-only PoA verification. Connecting TikTok is optional and requires your explicit OAuth authorization. Availability depends on TikTok review, approved permissions, account and regional eligibility, and API availability.
+
+RocX requests only `user.info.basic` to identify the authorized account and access the basic profile information TikTok provides under that scope, and `video.list` to access the connected account's public videos and the limited public metadata needed for verification. RocX does not collect your TikTok password.
+
+### 6.2 TikTok data accessed
+
+Processing is limited to information provided by the authorized API and needed for the connection and verification:
+
+* the TikTok `open_id` specific to the RocX app;
+* `union_id` only if returned by the API and actually needed for account continuity;
+* display name and avatar provided under `user.info.basic`, only as needed to identify or display the connected account;
+* OAuth access and refresh tokens, expiration times, authorized scopes, and connection status;
+* a limited list of public videos belonging to the connected account, solely to locate and verify a submitted video;
+* the submitted video's Video ID and, only where actually used for verification or its public PoA display, Share URL, Description, Create Time, Duration, Cover, or Embed information returned by the API; and
+* the account-to-video match, PoA verification result, and limited abuse-prevention records.
+
+RocX limits requested and retained fields to those actually needed for these purposes and does not intentionally retain unrelated video metadata after verification. This does not authorize collection of arbitrary videos from unconnected accounts.
+
+### 6.3 Purpose of use
+
+RocX uses TikTok data only to:
+
+* connect and identify the TikTok account you authorize;
+* verify that a public video you submit belongs to that connected account;
+* record and manage PoA verification results;
+* prevent impersonation, duplicate submissions, manipulation, fraud, and abuse; and
+* maintain security, resolve service failures, and respond to user support requests.
+
+You submit the public URL of a video you personally posted on TikTok. RocX extracts its Video ID and compares it with public video results for your connected account through the TikTok Display API. RocX processes the submission as verified only if the account-to-video relationship is confirmed. An account mismatch, private or deleted video, invalid URL, expired authorization, or insufficient API information can cause verification to fail or registration to be refused. This verifies the source of the post; it does not automatically guarantee PoA approval, ranking, Active Energy (AE), or any other reward.
+
+RocX does not use TikTok data for advertising or retargeting, sale or licensing of user data, provision to data brokers or information resellers, creditworthiness or lending decisions, training general-purpose AI or machine-learning models, or unrelated analytics or profiling.
+
+### 6.4 Read-only operation
+
+You create and publish videos directly on TikTok and voluntarily submit only their public URLs to RocX. RocX does not request `video.publish` or any other write permission and does not use the TikTok Content Posting API.
+
+RocX does not upload, publish, modify, or delete videos; like, comment, or repost; follow or unfollow accounts; send messages or DMs; or create or manage advertising on your behalf. The integration does not access private videos, drafts, contacts, DMs, or advertising data.
+
+### 6.5 Public display and sharing
+
+Public display on RocX is limited to the public TikTok URL you submit, necessary public account and video metadata, and the PoA verification result.
+
+RocX does not publicly disclose or record on a public blockchain OAuth tokens, TikTok passwords, app secrets or internal credentials, unnecessary platform identifiers, private TikTok data, or raw security and abuse-detection data. RocX does not collect TikTok passwords or private TikTok content through this integration.
+
+RocX does not sell or license TikTok data or provide it to data brokers or information resellers. Apart from the limited public display above, RocX limits processing and sharing to the minimum necessary for:
+
+* hosting, database, infrastructure, security, and support providers acting solely under RocX's instructions and confidentiality and data-protection obligations;
+* personnel handling security and abuse investigations; or
+* compliance with applicable law, court orders, or valid government requests.
+
+Service providers may not use TikTok data for their own advertising, profiling, independent commercial purposes, or general-purpose AI or machine-learning training.
+
+### 6.6 Retention and deletion
+
+OAuth tokens are retained only while the TikTok account remains connected. When you select Disconnect in RocX, revoke TikTok authorization, delete your RocX account, or submit a valid deletion request, RocX stops new API requests through that authorization and deletes access and refresh tokens from active systems without undue delay.
+
+Other TikTok personal data is retained only for as long as necessary for the purposes above. Following a valid deletion request or RocX account deletion, RocX deletes or de-identifies covered TikTok data from active systems as soon as reasonably possible and within 30 days. If TikTok policies or applicable law require a shorter period or complete deletion, that requirement takes precedence; de-identification does not replace required deletion. Provider-triggered deletion obligations apply without requiring a second request.
+
+Restricted backup copies are deleted or overwritten within 90 days and are not restored for ordinary business use. Shorter TikTok or legal deadlines also apply to backups; the backup period does not extend them. These TikTok timeframes do not change the separate Google and YouTube or Meta rules above.
+
+A public URL you submit directly is distinct from OAuth and API data. This distinction does not exempt API-derived personal data, associated metadata, or verification records from applicable deletion obligations. Deleting RocX data does not delete your original TikTok account or videos; use TikTok's own controls to delete them.
+
+### 6.7 User controls
+
+You may stop access or request deletion by:
+
+* selecting TikTok Disconnect in RocX My Page;
+* removing RocX authorization in your TikTok account's connected-app or authorization settings;
+* deleting your RocX account; or
+* emailing a TikTok data deletion request to **[rocx@rocx.io](mailto:rocx@rocx.io)**.
+
+Removing TikTok authorization stops future access but may not itself request deletion of every existing record stored by RocX. To request stored-data deletion directly, delete your RocX account or email us. Applicable TikTok deletion obligations still apply without a separate request. See [TikTok connection and deletion](/legal/data-deletion#tiktok-connection-and-deletion) and the [TikTok integration terms](/legal/terms-of-service#5-tiktok-integration).
+
+## 7. Retention and security
 
 RocX retains personal information for as long as necessary to provide services, address security issues or disputes, and meet legal obligations. Information is deleted or de-identified when it is no longer needed.
 
 RocX applies reasonable administrative and technical safeguards to protect personal information. No online service can guarantee absolute security.
 
-## 7. Your choices and rights
+## 8. Your choices and rights
 
 You may disconnect accounts through available RocX, wallet, or provider controls. Revoking a provider’s authorization may require a separate step. Disconnection stops future access but may not delete all existing records. Provider-specific deletion rules above take precedence. You may separately request deletion using the [Social Account Data Deletion instructions](/legal/data-deletion).
 
@@ -206,7 +285,7 @@ Depending on applicable law, you may request access, correction, deletion, a cop
 
 Send requests to **[rocx@rocx.io](mailto:rocx@rocx.io)**. RocX may verify your control of the relevant account without requesting a private key or seed phrase and will handle requests within applicable legal time limits.
 
-## 8. Changes and contact
+## 9. Changes and contact
 
 Updates to this Privacy Policy will be posted on this page. RocX will provide additional notice or obtain consent where required by law.
 
